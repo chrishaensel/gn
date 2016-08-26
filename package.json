@@ -1,0 +1,49 @@
+{
+  "name": "genji-novi",
+  "version": "0.0.1",
+  "description": "Website for Genji Novi Restaurant",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/companypi/gn.git"
+  },
+  "engines": {
+    "node": "v6.2.2",
+    "npm": "3.8.3"
+  },
+  "keywords": [
+    "aprendelo"
+  ],
+  "author": "Paul Diederichs & Jimin Hong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/companypi/gn/issues"
+  },
+  "homepage": "https://github.com/companypi/gn#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^1.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.0",
+    "handyutils": "^1.0.0",
+    "jsonwebtoken": "^7.1.6",
+    "moment": "^2.14.1",
+    "mongodb": "^2.2.4"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
+    "mocha": "^2.3.3"
+  }
+}

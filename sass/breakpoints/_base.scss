@@ -1,0 +1,21 @@
+/*
+Stylesheet: Base Stylesheet
+*/
+/*------------------------------------*\
+  #GENERAL-STYLES
+\*------------------------------------*/
+html,body{
+  height: 100%;
+}
+body {
+  font-family:$base-font-family;
+  font-size: 100%;
+  line-height: 1.5;
+  background-color: #EBEBEB;
+  height: 100%;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Verdana', Geneva, san-serif;
+	font-weight: initial;
+}

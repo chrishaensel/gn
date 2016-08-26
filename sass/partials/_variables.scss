@@ -1,0 +1,31 @@
+// Variables
+
+//COLORS
+$black:#1B212F;
+$white:#EBEBEB;
+$red:#D81F26;
+$yellow:#FEDE00;
+$green:#92A866;
+$cool-grey:#e1e3e4;
+
+//FONTS
+
+$base-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+
+//Query sizes
+
+$sGenji-min: 320px;
+$sGenji-max: 490px;
+
+$mGenji-min:491px;
+$mGenji-max:599px;
+
+$lGenji-min:600px;
+$lGenji-max:766px;
+
+$xLGenji-min:$lGenji-max + 1px;
+$xLGenji-max:1024px;
+
+$kingGenji:$xLGenji-max + 1px;

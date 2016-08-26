@@ -1,0 +1,34 @@
+// importing partials from `sass_dir` (defaults to `sass`)
+@import
+        "../../sass/partials/variables",
+        "../../sass/partials/normalize",
+        "../../sass/partials/typography"
+;
+// importing base from breakpoints
+@import "../../sass/breakpoints/base";
+
+//Media Queries from breakpoints
+
+@media only screen and (min-width:$sGenji-min) and (max-width:$sGenji-max){
+  @import "../../sass/breakpoints/sGenji";
+}// End of sGenji query
+
+@media only screen and (min-width:$mGenji-min) and (max-width:$mGenji-max){
+  @import "../../sass/breakpoints/mGenji";
+}// End of mGenji query
+
+@media only screen and (min-width:$lGenji-min) and (max-width:$lGenji-max){
+  @import "../../sass/breakpoints/lGenji";
+}// End of lGenji query
+
+@media only screen and (min-width:$xLGenji-min) and (max-width:$xLGenji-max){
+  @import "../../sass/breakpoints/xLGenji";
+}// End of xLGenji query
+
+@media only screen and (min-width:$kingGenji){
+  @import "../../sass/breakpoints/kingGenji";
+}// End of kingGenji query
+
+@media print {
+  @import "../../sass/partials/print";
+}

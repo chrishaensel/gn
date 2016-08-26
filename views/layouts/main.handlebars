@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} - Genji Novi</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <script rel="text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+  <!-- Error Messages -->
+  {{#if message.error}}
+  <div class="message error">
+    {{message.error}}(X)
+  </div>
+  {{/if}}
+  <!-- Success messages -->
+  {{#if message.success}}
+  <div class="message success">
+    {{message.success}}(X)
+  </div>
+  {{/if}}
+    {{{body}}}
+
+  <!-- Misc -->
+  <script type="text/javascript">
+  // Flash messages
+  if (document.getElementsByClassName('message')) {
+    var messages = document.getElementsByClassName('message');
+    for (var i = 0; i < messages.length; i++) {
+      messages[i].addEventListener('click',function() {
+        this.style.display = "none";
+      });
+    }
+  }
+  </script>
+  </body>
+  </html>
