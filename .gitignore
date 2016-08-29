@@ -4,3 +4,6 @@
 node_modules
 //env
 .env
+// keys
+./keys/private.pem
+./keys/public.pub

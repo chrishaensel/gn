@@ -24,6 +24,11 @@ gulp.task('genRSAKeys', function() { 
     console.log(stdout);
   });
 });
+gulp.task('envFile', function() { 
+  exec('echo \"DEBUG=True\" > ./.env', function(err,stdout,stderr){
+    console.log(stdout);
+  });
+});
 //Add a test user for an Admin
 gulp.task('create-admin-test-user', function(done) {
 
@@ -57,5 +62,8 @@ gulp.task('test', function () {
     });
 });
 
+// setup dev environment
+  gulp.task('setup', ['genRSAKeys', 'envFile']);
+
 // start dev environment
-  gulp.task('startup', ['mongod', 'dev']);
+  gulp.task('start', ['dev']);
