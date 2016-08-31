@@ -7,3 +7,4 @@ node_modules
 // keys
 ./keys/private.pem
 ./keys/public.pub
+*.log
