@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const child_process  = require('child_process');
 const exec = require('child_process').exec;
-// const minifyCss = require('gulp-minify-css');
+const sass = require('gulp-sass');
 const nodemon   = require('gulp-nodemon');
 const moment = require('moment');
 // const UserAccount = require('./models/account');
@@ -61,9 +61,18 @@ gulp.task('test', function () {
         console.log(stdout);
     });
 });
+// sass
+gulp.task('sass', function () {
+  return gulp.src('./sass/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./public/css'));
+});
+gulp.task('sass:watch', function () {
+  gulp.watch('./sass/**/*.scss', ['sass']);
+});
 
 // setup dev environment
   gulp.task('setup', ['genRSAKeys', 'envFile']);
 
 // start dev environment
-  gulp.task('start', ['dev']);
+  gulp.task('start', ['dev','sass:watch']);
