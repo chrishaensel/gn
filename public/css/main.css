@@ -72,7 +72,8 @@ body {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background: transparent; }
+  background: transparent;
+  text-decoration: none; }
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
@@ -425,6 +426,14 @@ FONT FACE (IN YOUR FACE)
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
+/*==============================================================*/
+/*=========================== Header ===========================*/
+/*==============================================================*/
+.deco-font {
+  font-family: "essonnes-headline",sans-serif;
+  font-style: italic;
+  font-weight: 400; }
+
 p {
   -ms-word-wrap: break-word;
   word-break: break-word;
@@ -442,6 +451,21 @@ p {
   font-feature-settings: "liga", "dlig"; }
 
 /*
+Stylesheet: Colors
+*/
+/*********************
+COLORS
+*********************/
+/*
+Stylesheet: Layouts
+*/
+/*********************
+LAYOUT
+*********************/
+.float-right {
+  float: right; }
+
+/*
 Stylesheet: Base Stylesheet
 */
 /*------------------------------------*  #GENERAL-STYLES
@@ -450,36 +474,108 @@ html, body {
   height: 100%; }
 
 body {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "azo-sans-web", sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  background-color: #EBEBEB;
-  height: 100%;
-  background-color: pink; }
+  height: 100%; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Verdana', Geneva, san-serif;
   font-weight: initial; }
 
-@media only screen and (min-width: 320px) and (max-width: 490px) {
-  /*------------------------------------*  #Stylesheet-320px-490px
-\*------------------------------------*/ }
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  line-height: 6em; }
+  nav .nav-container {
+    width: 80%;
+    margin: 0 auto; }
+    nav .nav-container .float-left {
+      float: left;
+      clear: both;
+      display: inherit; }
+    nav .nav-container a {
+      font-size: .85em;
+      font-weight: 200;
+      color: white;
+      text-transform: uppercase;
+      margin-left: 30px; }
+    nav .nav-container a:nth-child(1) {
+      margin: 0; }
+      nav .nav-container a:nth-child(1) .logo-svg-location {
+        margin-bottom: -7px; }
 
-@media only screen and (min-width: 491px) and (max-width: 599px) {
-  /*------------------------------------*  #Stylesheet-491px-599px
-\*------------------------------------*/ }
+.hamburger-nav {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .hamburger-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+    .hamburger-nav ul .dropbtn {
+      display: inline-block;
+      color: white; }
+    .hamburger-nav ul .logo-svg-location {
+      margin: 0 0 -30px 30px; }
+  .hamburger-nav li.dropdown {
+    display: inline-block; }
+  .hamburger-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+    .hamburger-nav .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left; }
+  .hamburger-nav .dropdown:hover .dropdown-content {
+    display: block; }
 
-@media only screen and (min-width: 600px) and (max-width: 766px) {
-  /*------------------------------------*  #Stylesheet-600px-766px
-\*------------------------------------*/ }
+@media only screen and (min-width: 100px) and (max-width: 400px) {
+  /*------------------------------------*  #Stylesheet-320px-400px
+\*------------------------------------*/
+  nav {
+    display: none; }
+  .hamburger-nav {
+    display: block; } }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
-  /*------------------------------------*  #Stylesheet-768px-1024px
-\*------------------------------------*/ }
+@media only screen and (min-width: 401px) and (max-width: 750px) {
+  /*------------------------------------*  #Stylesheet-401-750px
+\*------------------------------------*/
+  html {
+    background-color: ivory; }
+  nav {
+    display: none; }
+  .hamburger-nav {
+    display: block; } }
 
-@media only screen and (min-width: 1025px) {
-  /*------------------------------------*  #Stylesheet-min-1025px
-\*------------------------------------*/ }
+@media only screen and (min-width: 751px) and (max-width: 1110px) {
+  /*------------------------------------*  #Stylesheet-751-970px
+\*------------------------------------*/
+  nav {
+    display: none; }
+  .hamburger-nav {
+    display: block; } }
+
+@media only screen and (min-width: 1111px) and (max-width: 1590px) {
+  /*------------------------------------*  #Stylesheet-971-1590px
+\*------------------------------------*/
+  html {
+    background-color: grey; }
+  .hamburger-nav {
+    display: none; } }
+
+@media only screen and (min-width: 1591px) {
+  /*------------------------------------*  #Stylesheet-min-1591px
+\*------------------------------------*/
+  html {
+    background-color: pink; }
+  .hamburger-nav {
+    display: none; } }
 
 @media print {
   /*

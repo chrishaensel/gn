@@ -5,8 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} - Genji Novi</title>
+
+  <!-- Typekit Font-->
+  <script src="https://use.typekit.net/vlx3dns.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <script rel="text/javascript" src="/js/main.js"></script>
+
 </head>
 <body>
   <!-- Error Messages -->
@@ -24,17 +30,38 @@
 
   <header>
     <nav>
-      <a href="/">Genji</a>
-      <a href="/story">Our Story</a>
-      <a href="/menus">Menus</a>
-      <a href="/restaurant">Restaurant</a>
-      <a href="/contact">Contact Us</a>
-      <a href="" class="float-right">fb</a>
-      <a href="" class="float-right">ig</a>
-      <a href="" class="float-right">Book a table</a>
-      
-      
+      <div class="nav-container">
+        <div class="float-left">
+          <a href="/">
+            <img class="logo-svg-location" src="/svg/genji-logo.svg" alt="Genji">
+          </a>
+        </div>
+        <a href="/story">Our Story</a>
+        <a href="/menus">Menus</a>
+        <a href="/restaurant">Restaurant</a>
+        <a href="/contact">Contact Us</a>
+        <a href="" class="float-right">fb</a>
+        <a href="" class="float-right">ig</a>
+        <a href="" class="float-right">Book a table</a>
+      </div>
     </nav>
+
+    <div class="hamburger-nav">
+      <ul>
+        <li><a href="/"><img class="logo-svg-location" src="/svg/genji-logo.svg" alt="Genji"></a></li>
+        <li class="float-right dropdown"><a href="#" class="dropbtn">menu</a>
+          <div class="dropdown-content">
+            <a href="/story">Our Story</a>
+            <a href="/menus">Menus</a>
+            <a href="/restaurant">Restaurant</a>
+            <a href="/contact">Contact Us</a>
+          </div>
+        </li>
+        
+      </ul>
+    
+
+    </div>
   </header>
 
   <div>

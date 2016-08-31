@@ -2,10 +2,84 @@
 @import
         "./partials/variables",
         "./partials/normalize",
-        "./partials/typography"
+        "./partials/typography",
+        "./partials/colors",
+        "./partials/layouts"
 ;
 // importing base from breakpoints
 @import "./breakpoints/base";
+
+nav{
+  background-color: rgba(0,0,0,.5);
+  height: 100px;
+  line-height: 6em;
+  .nav-container{
+    width: 80%;
+    margin: 0 auto;
+    .float-left{
+        float: left;
+        clear: both;
+        display: inherit;
+    }
+    a{
+      font-size: .85em;
+      font-weight: 200;
+      color: rgba(255,255,255,1);
+      text-transform: uppercase;
+      margin-left: 30px;
+    }
+    a:nth-child(1){
+      margin: 0;
+      .logo-svg-location{
+        margin-bottom: -7px;
+      }
+    }
+  }
+}
+
+.hamburger-nav{
+	height: 70px;
+	background-color: rgba(0,0,0,.5);
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    .dropbtn {
+		    display: inline-block;
+		    color: white;
+		}
+
+		.logo-svg-location{
+        	margin: 0 0 -30px 30px;
+      	}
+	}
+
+	li.dropdown {
+	    display: inline-block;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+	    a {
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		    text-align: left;
+		}
+
+	}
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	}
+}
+
 
 //Media Queries from breakpoints
 
@@ -23,6 +97,8 @@
 
 @media only screen and (min-width:$xLGenji-min) and (max-width:$xLGenji-max){
   @import "./breakpoints/xLGenji";
+  html{
+  }
 }// End of xLGenji query
 
 @media only screen and (min-width:$kingGenji){
