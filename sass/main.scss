@@ -4,7 +4,8 @@
         "./partials/normalize",
         "./partials/typography",
         "./partials/colors",
-        "./partials/layouts"
+        "./partials/layouts",
+        "./partials/dropdown"
 ;
 // importing base from breakpoints
 @import "./breakpoints/base";
@@ -35,49 +36,6 @@ nav{
       }
     }
   }
-}
-
-.hamburger-nav{
-	height: 70px;
-	background-color: rgba(0,0,0,.5);
-	ul {
-	    list-style-type: none;
-	    margin: 0;
-	    padding: 0;
-	    overflow: hidden;
-	    .dropbtn {
-		    display: inline-block;
-		    color: white;
-		}
-
-		.logo-svg-location{
-        	margin: 0 0 -30px 30px;
-      	}
-	}
-
-	li.dropdown {
-	    display: inline-block;
-	}
-
-	.dropdown-content {
-	    display: none;
-	    position: absolute;
-	    background-color: #f9f9f9;
-	    min-width: 160px;
-	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-	    a {
-		    color: black;
-		    padding: 12px 16px;
-		    text-decoration: none;
-		    display: block;
-		    text-align: left;
-		}
-
-	}
-	.dropdown:hover .dropdown-content {
-	    display: block;
-	}
 }
 
 
