@@ -713,7 +713,7 @@ h1, h2, h3, h4 {
   width: 100vw;
   height: 100vh; }
 
-.docScroller {
+.page-wrapper {
   overflow-x: hidden;
   position: absolute;
   top: 0;
@@ -731,23 +731,21 @@ h1, h2, h3, h4 {
   scroll-snap-destination: 100% 0%; }
 
 .inside {
-  background: yellow;
-  opacity: 0.3;
   width: 80vw;
   margin: 10vh 0 0 10vw;
   height: 80vh; }
 
 .one {
-  background: blue; }
+  background: url(/images/sc_and_fm.jpg) center center no-repeat;
+  background-size: cover; }
 
 .two {
-  background: purple; }
+  background: url(/images/sushi_boat.jpg) center center no-repeat;
+  background-size: cover; }
 
 .three {
-  background: red; }
-
-.four {
-  background: orange; }
+  background: url(/images/figures.jpg) center center no-repeat;
+  background-size: cover; }
 
 @media only screen and (min-width: 100px) and (max-width: 400px) {
   /*------------------------------------*  #Stylesheet-320px-400px
