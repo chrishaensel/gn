@@ -465,6 +465,9 @@ LAYOUT
 .float-right {
   float: right; }
 
+.half-height {
+  height: 50vh; }
+
 /*  SECTIONS  */
 .section {
   clear: both;
@@ -475,7 +478,7 @@ LAYOUT
 .col {
   display: block;
   float: left;
-  margin: 1% 0 1% 1.6%; }
+  margin: 0; }
 
 .col:first-child {
   margin-left: 0; }
@@ -493,15 +496,35 @@ LAYOUT
   zoom: 1;
   /* For IE 6/7 */ }
 
+/*  GRID OF TWO  */
+.span_2_of_2 {
+  width: 100%; }
+
+.span_1_of_2 {
+  width: 50%; }
+
 /*  GRID OF THREE  */
 .span_3_of_3 {
   width: 100%; }
 
 .span_2_of_3 {
-  width: 66.13%; }
+  width: 66.66%; }
 
 .span_1_of_3 {
-  width: 32.26%; }
+  width: 33.33%; }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+  width: 100%; }
+
+.span_3_of_4 {
+  width: 75%; }
+
+.span_2_of_4 {
+  width: 50%; }
+
+.span_1_of_4 {
+  width: 25%; }
 
 *, *:before, *:after {
   -webkit-border-sizing: border-box;
@@ -677,11 +700,13 @@ h1, h2, h3, h4, h5 {
   font-weight: initial; }
 
 nav {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(0, 0, 0, 0.2);
   height: 100px;
+  padding-top: 0px;
   line-height: 6em;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%; }
   nav .nav-container {
     width: 80%;
@@ -711,7 +736,8 @@ h1, h2, h3, h4 {
 .page {
   float: left;
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  margin: 0; }
 
 .page-wrapper {
   overflow-x: hidden;
@@ -730,18 +756,23 @@ h1, h2, h3, h4 {
   -ms-scroll-snap-destination: 100% 0%;
   scroll-snap-destination: 100% 0%; }
 
-.inside {
-  width: 80vw;
-  margin: 10vh 0 0 10vw;
-  height: 80vh; }
-
 .one {
   background: url(/images/sc_and_fm.jpg) center center no-repeat;
   background-size: cover; }
 
 .two {
-  background: url(/images/sushi_boat.jpg) center center no-repeat;
   background-size: cover; }
+  .two .sushi-boat-bg {
+    background: url(/images/sushi_boat.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh; }
+  .two .halal-bg {
+    background: url(/images/halal-bg-orange.jpg) center center no-repeat;
+    background-size: cover; }
+  .two .lobster-bg-mustard-bg {
+    background: url(/images/lobster-bg-mustard.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%; }
 
 .three {
   background: url(/images/figures.jpg) center center no-repeat;
@@ -753,7 +784,10 @@ h1, h2, h3, h4 {
   nav {
     display: none; }
   .hamburger-nav {
-    display: block; }
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh; }
     .hamburger-nav a .logo-svg-location-dropdown {
       display: block;
       margin: auto; } }
@@ -766,7 +800,10 @@ h1, h2, h3, h4 {
   nav {
     display: none; }
   .hamburger-nav {
-    display: block; }
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh; }
     .hamburger-nav a .logo-svg-location-dropdown {
       display: block;
       margin: auto; } }
@@ -777,7 +814,10 @@ h1, h2, h3, h4 {
   nav {
     display: none; }
   .hamburger-nav {
-    display: block; }
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh; }
     .hamburger-nav a .logo-svg-location-dropdown {
       display: block;
       margin: auto; } }

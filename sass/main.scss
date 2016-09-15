@@ -11,11 +11,13 @@
 @import "./breakpoints/base";
 
 nav{
-  background-color: rgba(255,255,255,0);
-  height: 100px;
+  background-color: rgba(0,0,0,.2);
+  height: 100px; 
+  padding-top: 0px;
   line-height: 6em;
   position: fixed;
   top: 0;
+  left:0;
   width: 100%;
   .nav-container{
     width: 80%;
@@ -45,6 +47,7 @@ html, body{
   margin: 0;
   color: #fff;
 }
+
 h1,h2,h3,h4{
   margin: 0;
 }
@@ -53,6 +56,7 @@ h1,h2,h3,h4{
   float: left;
   width: 100vw;
   height: 100vh;
+  margin: 0;
 }
 
 .page-wrapper {
@@ -73,29 +77,33 @@ h1,h2,h3,h4{
           scroll-snap-destination: 100% 0%;
 }
 
-.inside {
-  width: 80vw;
-  margin: 10vh 0 0 10vw;
-  height: 80vh;
-}
-
 .one {
   background: url(/images/sc_and_fm.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .two {
-  background: url(/images/sushi_boat.jpg) center center no-repeat;
   background-size: cover;
+  .sushi-boat-bg{
+    background: url(/images/sushi_boat.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .halal-bg{
+    background: url(/images/halal-bg-orange.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  .lobster-bg-mustard-bg{
+    background: url(/images/lobster-bg-mustard.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
 
 .three {
   background: url(/images/figures.jpg) center center no-repeat;
   background-size: cover;
 }
-
-
-
 
 
 //Media Queries from breakpoints

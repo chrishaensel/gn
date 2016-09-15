@@ -11,7 +11,10 @@ nav{
 }
 
 .hamburger-nav{
+	position: fixed;
 	display: block;
+	width: 100vw;
+  	height: 100vh;
 	a{
 		.logo-svg-location-dropdown{
 			display: block;
