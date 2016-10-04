@@ -700,6 +700,7 @@ h1, h2, h3, h4, h5 {
   font-weight: initial; }
 
 nav {
+  z-index: 2;
   background-color: rgba(0, 0, 0, 0.2);
   height: 100px;
   padding-top: 0px;
@@ -717,7 +718,7 @@ nav {
       display: inherit; }
     nav .nav-container a {
       font-size: .85em;
-      font-weight: 200;
+      font-weight: 400;
       color: white;
       text-transform: uppercase;
       margin-left: 30px; }
@@ -730,12 +731,15 @@ html, body {
   margin: 0;
   color: #fff; }
 
+.text-align-center {
+  text-align: center; }
+
 h1, h2, h3, h4 {
   margin: 0; }
 
 .page {
   float: left;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   margin: 0; }
 
@@ -746,19 +750,44 @@ h1, h2, h3, h4 {
   width: 100%;
   height: 100%;
   overflow: auto;
-  -webkit-scroll-snap-points-y: repeat(100%);
-  -ms-scroll-snap-points-y: repeat(100%);
-  scroll-snap-points-y: repeat(100%);
+  /*  -webkit-scroll-snap-points-y: repeat(100%);
+      -ms-scroll-snap-points-y: repeat(100%);
+          scroll-snap-points-y: repeat(100%);
   -webkit-scroll-snap-type: mandatory;
-  -ms-scroll-snap-type: mandatory;
-  scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
   -webkit-scroll-snap-destination: 100% 0%;
-  -ms-scroll-snap-destination: 100% 0%;
-  scroll-snap-destination: 100% 0%; }
+      -ms-scroll-snap-destination: 100% 0%;
+          scroll-snap-destination: 100% 0%;*/ }
 
 .one {
-  background: url(/images/sc_and_fm.jpg) center center no-repeat;
-  background-size: cover; }
+  background: url(/images/lobster_bg_feature-01.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  resize: both;
+  overflow: auto; }
+  .one .feature-content-wrapper {
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    resize: both;
+    overflow: auto; }
+    .one .feature-content-wrapper h1 {
+      font-family: "essonnes-headline",sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 1.7em; }
+    .one .feature-content-wrapper button {
+      margin-top: 50px;
+      font-size: .85em; }
+
+.rectangle {
+  width: 30px;
+  height: 10px;
+  background: #cb5261; }
 
 .two {
   background-size: cover; }
@@ -766,6 +795,15 @@ h1, h2, h3, h4 {
     background: url(/images/sushi_boat.jpg) center center no-repeat;
     background-size: cover;
     height: 100vh; }
+    .two .sushi-boat-bg .two-wrapper {
+      margin: 150px 0 0 50px; }
+      .two .sushi-boat-bg .two-wrapper h2 {
+        font-family: "essonnes-headline",sans-serif;
+        font-style: italic;
+        text-transform: uppercase;
+        font-size: 2.2em;
+        color: #424242;
+        margin: 0; }
   .two .halal-bg {
     background: url(/images/halal-bg-orange.jpg) center center no-repeat;
     background-size: cover; }
@@ -777,6 +815,14 @@ h1, h2, h3, h4 {
 .three {
   background: url(/images/figures.jpg) center center no-repeat;
   background-size: cover; }
+
+button {
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white; }
 
 @media only screen and (min-width: 100px) and (max-width: 400px) {
   /*------------------------------------*  #Stylesheet-320px-400px
