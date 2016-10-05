@@ -57,6 +57,14 @@ h1,h2,h3,h4{
   margin: 0;
 }
 
+p{
+  font-family: "capitolina",sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+  font-size: .75em;
+}
+
 .page {
   float: left;
   width: 100%;
@@ -71,7 +79,7 @@ h1,h2,h3,h4{
   width: 100%;
   height: 100%;
   overflow: auto;
-/*  -webkit-scroll-snap-points-y: repeat(100%);
+  -webkit-scroll-snap-points-y: repeat(100%);
       -ms-scroll-snap-points-y: repeat(100%);
           scroll-snap-points-y: repeat(100%);
   -webkit-scroll-snap-type: mandatory;
@@ -79,7 +87,7 @@ h1,h2,h3,h4{
           scroll-snap-type: mandatory;
   -webkit-scroll-snap-destination: 100% 0%;
       -ms-scroll-snap-destination: 100% 0%;
-          scroll-snap-destination: 100% 0%;*/
+          scroll-snap-destination: 100% 0%;
 }
 
 .one {
@@ -117,15 +125,49 @@ h1,h2,h3,h4{
   background: #cb5261;
 }
 
+/* ======================== margins ======================== */
+
+.margin-top-150{
+  margin-top: 150px
+}
+.margin-left-50{
+  margin-left: 50px;
+}
+.margin-left-20-perc{
+  margin-left: 20%;
+}
+
+/* ======================== margins ======================== */
+
+.padding-top-150{
+  padding-top: 150px;
+}
+
+.margin-top{
+  margin-top: 10px;
+}
+
+.margin-right{
+  margin-right: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-left{
+  margin-left: 10px;
+}
+
+
+
 .two {
   background-size: cover;
   .sushi-boat-bg{
     background: url(/images/sushi_boat.jpg) center center no-repeat;
     background-size: cover;
     height: 100vh;
-    .two-wrapper{
-      margin: 150px 0 0 50px;
-      h2{
+    h2{
         font-family: "essonnes-headline",sans-serif;
         font-style: italic;
         text-transform: uppercase;
@@ -133,18 +175,30 @@ h1,h2,h3,h4{
         color: #424242;
         margin: 0;
 
-      }
     }
-    
   }
   .halal-bg{
     background: url(/images/halal-bg-orange.jpg) center center no-repeat;
     background-size: cover;
+    h3{
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: .9em;
+      margin-bottom: 30px;
+    }
   }
   .lobster-bg-mustard-bg{
     background: url(/images/lobster-bg-mustard.jpg) center center no-repeat;
     background-size: cover;
     height: 100%;
+  }
+  .blueberry-mule-bg{
+    background: url(/images/drink-menu-03.png) center center no-repeat;
+    background-size: cover;
+  }
+  .singapore-sling-bg{
+    background: url(/images/drink-menu-04.png) center center no-repeat;
+    background-size: cover;
   }
 }
 

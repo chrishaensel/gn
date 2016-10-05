@@ -468,6 +468,9 @@ LAYOUT
 .half-height {
   height: 50vh; }
 
+.quarter-height {
+  height: 25vh; }
+
 /*  SECTIONS  */
 .section {
   clear: both;
@@ -478,7 +481,7 @@ LAYOUT
 .col {
   display: block;
   float: left;
-  margin: 0; }
+  margin: 1% 0 1% 1.6%; }
 
 .col:first-child {
   margin-left: 0; }
@@ -501,30 +504,30 @@ LAYOUT
   width: 100%; }
 
 .span_1_of_2 {
-  width: 50%; }
+  width: 49.2%; }
 
 /*  GRID OF THREE  */
 .span_3_of_3 {
   width: 100%; }
 
 .span_2_of_3 {
-  width: 66.66%; }
+  width: 66.13%; }
 
 .span_1_of_3 {
-  width: 33.33%; }
+  width: 32.26%; }
 
 /*  GRID OF FOUR  */
 .span_4_of_4 {
   width: 100%; }
 
 .span_3_of_4 {
-  width: 75%; }
+  width: 74.6%; }
 
 .span_2_of_4 {
-  width: 50%; }
+  width: 49.2%; }
 
 .span_1_of_4 {
-  width: 25%; }
+  width: 23.8%; }
 
 *, *:before, *:after {
   -webkit-border-sizing: border-box;
@@ -737,6 +740,13 @@ html, body {
 h1, h2, h3, h4 {
   margin: 0; }
 
+p {
+  font-family: "capitolina",sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+  font-size: .75em; }
+
 .page {
   float: left;
   width: 100%;
@@ -750,15 +760,15 @@ h1, h2, h3, h4 {
   width: 100%;
   height: 100%;
   overflow: auto;
-  /*  -webkit-scroll-snap-points-y: repeat(100%);
-      -ms-scroll-snap-points-y: repeat(100%);
-          scroll-snap-points-y: repeat(100%);
+  -webkit-scroll-snap-points-y: repeat(100%);
+  -ms-scroll-snap-points-y: repeat(100%);
+  scroll-snap-points-y: repeat(100%);
   -webkit-scroll-snap-type: mandatory;
-      -ms-scroll-snap-type: mandatory;
-          scroll-snap-type: mandatory;
+  -ms-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory;
   -webkit-scroll-snap-destination: 100% 0%;
-      -ms-scroll-snap-destination: 100% 0%;
-          scroll-snap-destination: 100% 0%;*/ }
+  -ms-scroll-snap-destination: 100% 0%;
+  scroll-snap-destination: 100% 0%; }
 
 .one {
   background: url(/images/lobster_bg_feature-01.png) center center no-repeat;
@@ -789,28 +799,63 @@ h1, h2, h3, h4 {
   height: 10px;
   background: #cb5261; }
 
+/* ======================== margins ======================== */
+.margin-top-150 {
+  margin-top: 150px; }
+
+.margin-left-50 {
+  margin-left: 50px; }
+
+.margin-left-20-perc {
+  margin-left: 20%; }
+
+/* ======================== margins ======================== */
+.padding-top-150 {
+  padding-top: 150px; }
+
+.margin-top {
+  margin-top: 10px; }
+
+.margin-right {
+  margin-right: 10px; }
+
+.margin-bottom {
+  margin-bottom: 10px; }
+
+.margin-left {
+  margin-left: 10px; }
+
 .two {
   background-size: cover; }
   .two .sushi-boat-bg {
     background: url(/images/sushi_boat.jpg) center center no-repeat;
     background-size: cover;
     height: 100vh; }
-    .two .sushi-boat-bg .two-wrapper {
-      margin: 150px 0 0 50px; }
-      .two .sushi-boat-bg .two-wrapper h2 {
-        font-family: "essonnes-headline",sans-serif;
-        font-style: italic;
-        text-transform: uppercase;
-        font-size: 2.2em;
-        color: #424242;
-        margin: 0; }
+    .two .sushi-boat-bg h2 {
+      font-family: "essonnes-headline",sans-serif;
+      font-style: italic;
+      text-transform: uppercase;
+      font-size: 2.2em;
+      color: #424242;
+      margin: 0; }
   .two .halal-bg {
     background: url(/images/halal-bg-orange.jpg) center center no-repeat;
     background-size: cover; }
+    .two .halal-bg h3 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: .9em;
+      margin-bottom: 30px; }
   .two .lobster-bg-mustard-bg {
     background: url(/images/lobster-bg-mustard.jpg) center center no-repeat;
     background-size: cover;
     height: 100%; }
+  .two .blueberry-mule-bg {
+    background: url(/images/drink-menu-03.png) center center no-repeat;
+    background-size: cover; }
+  .two .singapore-sling-bg {
+    background: url(/images/drink-menu-04.png) center center no-repeat;
+    background-size: cover; }
 
 .three {
   background: url(/images/figures.jpg) center center no-repeat;
