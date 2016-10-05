@@ -466,10 +466,10 @@ LAYOUT
   float: right; }
 
 .half-height {
-  height: 50vh; }
+  height: 49vh; }
 
 .quarter-height {
-  height: 25vh; }
+  height: 24vh; }
 
 /*  SECTIONS  */
 .section {
@@ -720,11 +720,19 @@ nav {
       clear: both;
       display: inherit; }
     nav .nav-container a {
-      font-size: .85em;
+      font-size: .7em;
       font-weight: 400;
       color: white;
       text-transform: uppercase;
       margin-left: 30px; }
+      nav .nav-container a button {
+        background-color: rgba(255, 255, 255, 0.1);
+        font-size: .9em;
+        padding: 10px 20px;
+        transition: all 0.5s ease 0s; }
+        nav .nav-container a button:hover {
+          background-color: white;
+          color: black; }
     nav .nav-container a:nth-child(1) {
       margin: 0; }
       nav .nav-container a:nth-child(1) .logo-svg-location {
@@ -745,7 +753,16 @@ p {
   font-style: italic;
   font-weight: 400;
   margin: 0;
-  font-size: .75em; }
+  font-size: .8em; }
+
+.position-relative {
+  position: relative; }
+
+.bottom-text {
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  left: 37%; }
 
 .page {
   float: left;
@@ -803,6 +820,9 @@ p {
 .margin-top-150 {
   margin-top: 150px; }
 
+.margin-top-30 {
+  margin-top: 30px; }
+
 .margin-left-50 {
   margin-left: 50px; }
 
@@ -826,7 +846,8 @@ p {
   margin-left: 10px; }
 
 .two {
-  background-size: cover; }
+  background-size: cover;
+  text-align: center; }
   .two .sushi-boat-bg {
     background: url(/images/sushi_boat.jpg) center center no-repeat;
     background-size: cover;
@@ -837,19 +858,41 @@ p {
       text-transform: uppercase;
       font-size: 2.2em;
       color: #424242;
-      margin: 0; }
+      margin: 0;
+      text-align: left; }
   .two .halal-bg {
+    text-align: left;
     background: url(/images/halal-bg-orange.jpg) center center no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position: top;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in; }
+    .two .halal-bg:hover {
+      background-position: bottom; }
     .two .halal-bg h3 {
       text-transform: uppercase;
       font-weight: 600;
       font-size: .9em;
       margin-bottom: 30px; }
+    .two .halal-bg button:hover {
+      color: #f4531c; }
   .two .lobster-bg-mustard-bg {
     background: url(/images/lobster-bg-mustard.jpg) center center no-repeat;
     background-size: cover;
-    height: 100%; }
+    background-position: top;
+    height: 99%;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in; }
+    .two .lobster-bg-mustard-bg:hover {
+      height: 99%;
+      background-position: bottom;
+      background-size: 105% auto; }
+    .two .lobster-bg-mustard-bg button:hover {
+      color: #c15d00; }
   .two .blueberry-mule-bg {
     background: url(/images/drink-menu-03.png) center center no-repeat;
     background-size: cover; }
@@ -865,9 +908,22 @@ button {
   padding: 20px 30px;
   text-transform: uppercase;
   font-weight: 600;
+  font-size: .65em;
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px solid white; }
+  border: 2px solid white;
+  transition: all 0.5s ease 0s; }
+  button:hover {
+    background-color: white; }
+
+/* ======================== bg colors ======================== */
+.transparent-white {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+.transparent-orange {
+  background-color: rgba(244, 83, 28, 0.3); }
+
+.transparent-mustard {
+  background-color: rgba(193, 93, 0, 0.3); }
 
 @media only screen and (min-width: 100px) and (max-width: 400px) {
   /*------------------------------------*  #Stylesheet-320px-400px
