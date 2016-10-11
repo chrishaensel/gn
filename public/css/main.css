@@ -481,7 +481,7 @@ LAYOUT
 .col {
   display: block;
   float: left;
-  margin: 1% 0 1% 1.6%; }
+  margin: 10px 0 10px 10px; }
 
 .col:first-child {
   margin-left: 0; }
@@ -729,7 +729,7 @@ nav {
         background-color: rgba(255, 255, 255, 0.1);
         font-size: .9em;
         padding: 10px 20px;
-        transition: all 0.5s ease 0s; }
+        transition: all 1s ease 0s; }
         nav .nav-container a button:hover {
           background-color: white;
           color: black; }
@@ -777,15 +777,15 @@ p {
   width: 100%;
   height: 100%;
   overflow: auto;
-  -webkit-scroll-snap-points-y: repeat(100%);
-  -ms-scroll-snap-points-y: repeat(100%);
-  scroll-snap-points-y: repeat(100%);
+  /*  -webkit-scroll-snap-points-y: repeat(100%);
+      -ms-scroll-snap-points-y: repeat(100%);
+          scroll-snap-points-y: repeat(100%);
   -webkit-scroll-snap-type: mandatory;
-  -ms-scroll-snap-type: mandatory;
-  scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
   -webkit-scroll-snap-destination: 100% 0%;
-  -ms-scroll-snap-destination: 100% 0%;
-  scroll-snap-destination: 100% 0%; }
+      -ms-scroll-snap-destination: 100% 0%;
+          scroll-snap-destination: 100% 0%;*/ }
 
 .one {
   background: url(/images/lobster_bg_feature-01.png) center center no-repeat;
@@ -845,6 +845,12 @@ p {
 .margin-left {
   margin-left: 10px; }
 
+.three {
+  background-size: cover;
+  text-align: left; }
+  .three .half-height .interior-bg {
+    background: url(images/interior-bg.jpg) center center no-repeat; }
+
 .two {
   background-size: cover;
   text-align: center; }
@@ -865,12 +871,13 @@ p {
     background: url(/images/halal-bg-orange.jpg) center center no-repeat;
     background-size: cover;
     background-position: top;
-    -webkit-transition: all .5s ease-in;
-    -moz-transition: all .5s ease-in;
-    -o-transition: all .5s ease-in;
-    transition: all .5s ease-in; }
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 15s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in; }
     .two .halal-bg:hover {
-      background-position: bottom; }
+      background-position: bottom;
+      background-size: 120% auto; }
     .two .halal-bg h3 {
       text-transform: uppercase;
       font-weight: 600;
@@ -883,14 +890,13 @@ p {
     background-size: cover;
     background-position: top;
     height: 99%;
-    -webkit-transition: all .5s ease-in;
-    -moz-transition: all .5s ease-in;
-    -o-transition: all .5s ease-in;
-    transition: all .5s ease-in; }
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in; }
     .two .lobster-bg-mustard-bg:hover {
-      height: 99%;
       background-position: bottom;
-      background-size: 105% auto; }
+      background-size: 120% auto; }
     .two .lobster-bg-mustard-bg button:hover {
       color: #c15d00; }
   .two .blueberry-mule-bg {
@@ -899,10 +905,6 @@ p {
   .two .singapore-sling-bg {
     background: url(/images/drink-menu-04.png) center center no-repeat;
     background-size: cover; }
-
-.three {
-  background: url(/images/figures.jpg) center center no-repeat;
-  background-size: cover; }
 
 button {
   padding: 20px 30px;
@@ -913,7 +915,8 @@ button {
   border: 2px solid white;
   transition: all 0.5s ease 0s; }
   button:hover {
-    background-color: white; }
+    background-color: white;
+    color: #424242; }
 
 /* ======================== bg colors ======================== */
 .transparent-white {
