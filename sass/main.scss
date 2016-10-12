@@ -17,6 +17,16 @@ html, body{
   color: #fff;
 }
 
+h2{
+  font-family: "essonnes-headline",sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  color: #424242;
+  margin: 0;
+  text-align: left;
+}
+
 .text-align-center{
   text-align: center;
 }
@@ -80,12 +90,12 @@ nav{
 }
 
 .page-wrapper {
-  overflow-x: hidden;
+/*  overflow-x: hidden;
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: auto;*/
 /*  -webkit-scroll-snap-points-y: repeat(100%);
       -ms-scroll-snap-points-y: repeat(100%);
           scroll-snap-points-y: repeat(100%);
@@ -241,6 +251,18 @@ button{
     color: #424242; 
   }
 }
+
+
+.interior-bg{
+    background: url(/images/interior.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.outside-bg{
+  background: url(/images/outside-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+
 #instagram-icon{
   width: 60px;
 }
@@ -255,6 +277,10 @@ button{
   fill: #ffffff;
 }
 
+
+footer{
+  line-height: 6em;
+}
 
 //Media Queries from breakpoints
 

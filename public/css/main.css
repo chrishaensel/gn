@@ -450,6 +450,12 @@ p {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig"; }
 
+.more-leading {
+  line-height: 2em; }
+
+.bigger-font {
+  font-size: 1em; }
+
 h1, h2, h3, h4 {
   margin: 0; }
 
@@ -480,6 +486,9 @@ COLORS
 .grey-color {
   color: #3a3a3a; }
 
+.grey-10-color {
+  color: #d7d7d7; }
+
 /* ======================== bg colors ======================== */
 .transparent-white {
   background-color: rgba(255, 255, 255, 0.1); }
@@ -505,6 +514,21 @@ Stylesheet: Layouts
 /*********************
 LAYOUT
 *********************/
+html, body {
+  height: 100%; }
+
+.page-wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px; }
+
+.page-wrapper:after {
+  content: "";
+  display: block; }
+
+.site-footer, .page-wrapper:after {
+  height: 100px; }
+
 .float-right {
   float: right; }
 
@@ -618,8 +642,17 @@ LAYOUT
 .no-margin-top {
   margin-top: 0; }
 
+.padding-top-30 {
+  padding-top: 30px; }
+
 .padding-top-150 {
   padding-top: 150px; }
+
+.padding-top-230 {
+  padding-top: 230px; }
+
+.padding-bottom-90 {
+  padding-bottom: 90px; }
 
 .padding-top-bottom {
   padding: 10px 0; }
@@ -655,6 +688,10 @@ LAYOUT
 .width-70-center {
   margin: 0 auto;
   width: 70%; }
+
+.width-80-center {
+  margin: 0 auto;
+  width: 80%; }
 
 .width-90-center {
   margin: 0 auto;
@@ -854,6 +891,15 @@ html, body {
   margin: 0;
   color: #fff; }
 
+h2 {
+  font-family: "essonnes-headline",sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  color: #424242;
+  margin: 0;
+  text-align: left; }
+
 .text-align-center {
   text-align: center; }
 
@@ -906,12 +952,12 @@ nav {
   margin: 0; }
 
 .page-wrapper {
-  overflow-x: hidden;
+  /*  overflow-x: hidden;
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: auto;*/
   /*  -webkit-scroll-snap-points-y: repeat(100%);
       -ms-scroll-snap-points-y: repeat(100%);
           scroll-snap-points-y: repeat(100%);
@@ -1039,6 +1085,14 @@ button {
     background-color: white;
     color: #424242; }
 
+.interior-bg {
+  background: url(/images/interior.jpg) center center no-repeat;
+  background-size: cover; }
+
+.outside-bg {
+  background: url(/images/outside-bg.jpg) center center no-repeat;
+  background-size: cover; }
+
 #instagram-icon {
   width: 60px; }
 
@@ -1050,6 +1104,9 @@ button {
 
 .facebook-icon {
   fill: #ffffff; }
+
+footer {
+  line-height: 6em; }
 
 @media only screen and (min-width: 100px) and (max-width: 400px) {
   /*------------------------------------*  #Stylesheet-320px-400px

@@ -5,6 +5,24 @@ Stylesheet: Layouts
 /*********************
 LAYOUT
 *********************/
+html, body {
+  height: 100%;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px; 
+}
+
+.page-wrapper:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrapper:after {
+  height: 100px; 
+}
 
 .float-right{
   float: right;
@@ -130,8 +148,20 @@ LAYOUT
   margin-top: 0;
 }
 
+.padding-top-30{
+  padding-top: 30px;
+}
+
 .padding-top-150{
   padding-top: 150px;
+}
+
+.padding-top-230{
+  padding-top: 230px;
+}
+
+.padding-bottom-90{
+	padding-bottom: 90px;
 }
 
 .padding-top-bottom{
@@ -174,6 +204,10 @@ LAYOUT
 .width-70-center{
 	margin: 0 auto;
 	width: 70%;
+}
+.width-80-center{
+	margin: 0 auto;
+	width: 80%;
 }
 
 .width-90-center{
