@@ -538,8 +538,29 @@ html, body {
 .half-height {
   height: 50vh; }
 
+.height-100-perc {
+  height: 100%; }
+
+.height-90 {
+  height: 90vh; }
+
 .height-49 {
   height: 49vh; }
+
+.height-40vh {
+  height: 40vh; }
+
+.height-20vh {
+  height: 20vh; }
+
+.height-15-2 {
+  height: 15.2vh; }
+
+.height-10vh {
+  height: 10vh; }
+
+.height-35-1 {
+  height: 35.1vh; }
 
 .quarter-height {
   height: 25vh; }
@@ -667,11 +688,17 @@ html, body {
 .margin-top-30 {
   margin-top: 30px; }
 
+.margin-top-20 {
+  margin-top: 20px; }
+
 .margin-left-50 {
   margin-left: 50px; }
 
 .margin-left-20-perc {
   margin-left: 20%; }
+
+.padding-top-4vh {
+  padding-top: 4vh; }
 
 .margin-top {
   margin-top: 10px; }
@@ -710,9 +737,9 @@ html, body {
 .vertically-center-element {
   position: relative;
   top: 30%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(35%); }
+  -webkit-transform: translateY(65%);
+  -ms-transform: translateY(65%);
+  transform: translateY(65%); }
 
 *, *:before, *:after {
   -webkit-border-sizing: border-box;
@@ -891,6 +918,16 @@ html, body {
   margin: 0;
   color: #fff; }
 
+.menu-page-wrapper {
+  background-color: #f4f4f4; }
+
+.img-drop-shadow {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3)); }
+
+img {
+  width: 100%; }
+
 h2 {
   font-family: "essonnes-headline",sans-serif;
   font-style: italic;
@@ -963,7 +1000,8 @@ nav {
   float: left;
   width: 100%;
   height: 100vh;
-  margin: 0; }
+  /*  margin: 0;
+*/ }
 
 .page-wrapper {
   /*  overflow-x: hidden;
@@ -1059,7 +1097,7 @@ nav {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1em;
-  margin-bottom: 30px; }
+  margin-bottom: 11px; }
 
 .three h3 {
   text-transform: uppercase;
@@ -1113,6 +1151,9 @@ button {
 
 footer {
   line-height: 6em; }
+
+.height-90 {
+  height: 90vh; }
 
 @media only screen and (min-width: 100px) and (max-width: 400px) {
   /*------------------------------------*  #Stylesheet-320px-400px
