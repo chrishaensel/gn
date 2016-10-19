@@ -945,6 +945,20 @@ nav {
       nav .nav-container a:nth-child(1) .logo-svg-location {
         margin-bottom: -7px; }
 
+.menu-nav {
+  padding-top: 100px;
+  text-align: center;
+  color: #ffcbbb; }
+  .menu-nav .menu-nav-content {
+    padding: 30px 0;
+    font-size: 0.9em; }
+    .menu-nav .menu-nav-content a {
+      text-decoration: none;
+      color: #ffcbbb;
+      transition: all 0.5s ease 0s; }
+      .menu-nav .menu-nav-content a:hover {
+        color: white; }
+
 .page {
   float: left;
   width: 100%;
@@ -1015,15 +1029,7 @@ nav {
   .two .halal-bg {
     text-align: left;
     background: url(/images/halal-bg-orange.jpg) center center no-repeat;
-    background-size: cover;
-    background-position: top;
-    -webkit-transition: all 1s ease-in;
-    -moz-transition: all 15s ease-in;
-    -o-transition: all 1s ease-in;
-    transition: all 1s ease-in; }
-    .two .halal-bg:hover {
-      background-position: bottom;
-      background-size: 120% auto; }
+    background-size: cover; }
     .two .halal-bg h3 {
       text-transform: uppercase;
       font-weight: 600;
