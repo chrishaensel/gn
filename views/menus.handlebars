@@ -1,0 +1,42 @@
+<h1>{{ menuCategory.categoryTitle }}</h1>
+{{#if menuCategory.categoryDescription}}
+  <p>
+    {{ menuCategory.categoryDescription }}
+  </p>
+{{/if}}
+{{!- Entre Section -}}
+{{#if menuCategory.entre}}
+  {{#each menuCategory.entre}}
+    <div class="">
+      <span>{{this.dishName}}</span>
+      {{#if this.dishDescription}}
+        <span>this.dishDescription</span>
+      {{/if}}
+      <span>${{this.dishPrice}}</span>
+    </div>
+  {{/each}}
+{{/if}}
+{{!- Entre Combinations Section -}}
+{{#if menuCategory.entreCombinations}}
+  {{#each menuCategory.entreCombinations}}
+    <div class="">
+      <span>{{this.dishName}}</span>
+      {{#if this.dishDescription}}
+        <span>this.dishDescription</span>
+      {{/if}}
+      <span>{{this.dishPrice}}</span>
+    </div>
+  {{/each}}
+{{/if}}
+{{!- Dishes Section -}}
+{{#if menuCategory.dishes}}
+  {{#each menuCategory.dishes}}
+    <div class="">
+      <span>{{this.dishName}}</span>
+      {{#if this.dishDescription}}
+        <span>this.dishDescription</span>
+      {{/if}}
+      <span>${{this.dishPrice}}</span>
+    </div>
+  {{/each}}
+{{/if}}

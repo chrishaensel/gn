@@ -1,0 +1,28 @@
+{
+  "categoryName":"AppetizersSideDishes",
+  "categoryTitle":"Appetizers & Side Dishes",
+  "categoryDescription": false,
+  "appetizers":[],
+  "sides":[
+    {
+      "dishName": "Agedashi",
+      "dishPrice": 5,
+      "dishDescription": "Quick Fried Silken Tofu, Bonito Flakes, Tempura Sauce."
+    },
+    {
+      "dishName": "Beef Dumplings",
+      "dishPrice": 5,
+      "dishDescription": "Groud beef, Onions, Carrots, Cabbage."
+    },
+    {
+      "dishName": "Chicken Karage",
+      "dishPrice": 6,
+      "dishDescription": "Japanese Style Fried Chicken."
+    },
+    {
+      "dishName": "Chicken Karage",
+      "dishPrice": 6,
+      "dishDescription": "Japanese Style Fried Chicken."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "categoryName":"TeppanyakiDinner",
+  "categoryTitle":"Teppanyaki Dinner Menu",
+  "categoryDescription":"Teppanyaki Dinners includes our Pi's Yum Yum and Ginger sauces, Onion Soup, House Salad, Shrimp Appetizer, Sauteed Vegetables, Fried Rice, and Caramel Popcorn Chicken or Shrimp Fried Rice available at an additional charge. Steamed Rise available upon request.",
+  "entre":[
+    {
+      "dishName": "Filet Mignon 8 oz.",
+      "dishPrice": 29,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Shrimp 8 oz.",
+      "dishPrice": 25,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Vegetables",
+      "dishPrice": 15,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Ribeye 10 oz",
+      "dishPrice": 27,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Lobster (2 Cold water tails)",
+      "dishPrice": 42,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Scallops 8 oz.",
+      "dishPrice": 26,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Fish (Choice of Salmon or Mahi Mahi)",
+      "dishPrice": 27,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Steak 10 oz. (New York Strip)",
+      "dishPrice": 26,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Teriyaki Chicken",
+      "dishPrice": 19,
+      "dishDescription": false
+    }
+  ],
+  "entreCombinations":[
+    {
+      "dishName": "Hibachi Lobster & Teriyaki chicken",
+      "dishPrice": 33
+    },
+    {
+      "dishName": "Hibachi Steak & Lobster Tail",
+      "dishPrice": 33
+    },
+    {
+      "dishName": "Filet Mignon & Shrimp",
+      "dishPrice": 32
+    },
+    {
+      "dishName": "Hibachi Steak & Shrimp",
+      "dishPrice": 25
+    },
+    {
+      "dishName": "Hibachi Steak & Teriyaki Chicken",
+      "dishPrice": 25
+    },
+    {
+      "dishName": "Filet Mignon & Scallops",
+      "dishPrice": 34
+    },
+    {
+      "dishName": "Hibachi Steak & Teriyaki Chicken",
+      "dishPrice": 29
+    },
+    {
+      "dishName": "Filet Mignon & Lobster Tail",
+      "dishPrice": 36
+    }
+  ]
+}

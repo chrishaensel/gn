@@ -23,17 +23,18 @@ app.set('view engine', 'handlebars');
 app.use(express.static(__dirname + '/public'));
 // App config
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(session({ secret: 'aprendelo',
+app.use(session({ secret: 'gn',
 resave: false, saveUninitialized: false,
 maxAge: 9000000, cookie: { secure: false }, store: sessionStore }));
 app.use(flash());
-app.use(cookieParser('aprendelo'));
+app.use(cookieParser('gn'));
 // =-=-=-=-=-=-=-=-=-= Keys =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // Public key
 const publicKey = fs.readFileSync('./keys/public.pub');
 // Private Key
 const privateKey = fs.readFileSync('./keys/private.pem');
-
+//hold global reference to root folder
+// app.locals.root_dir = __dirname;
 // =-=-=-=-=-=-=-=-=-= Config vars =-=-=-=-=-=-=-=-=-=-=-=
 const port = process.env.PORT || 8080;
 
@@ -43,5 +44,4 @@ require('./routes/routes')(app, publicKey, privateKey);
 const server = app.listen(port, () => {
   if (process.env.DEBUG) handyUtils.debug('Server Active On', port);
 });
-
 module.exports = server;
