@@ -72,9 +72,17 @@
   </header>
 
     {{{body}}}
+
 </div>
 
-  <footer></footer>
+<footer class="site-footer mustard-bg">
+  <div class="width-80-center">
+    <p>Copyright © 2016 Pi Distribution Incorporated. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
 
 <script src="/js/jquery.js"></script>
 
@@ -90,6 +98,27 @@ if (document.getElementsByClassName('message')) {
   }
 }
 </script>
+<!-- AIzaSyCAeF4eUX0DaWDX-5cMksAXImK1XBkWqC4 -->
+<script> 
+
+      function initMap() {
+        var myLatLng = {lat: 42.489246, lng: -83.477278};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAeF4eUX0DaWDX-5cMksAXImK1XBkWqC4&callback=initMap">
+    </script>
 
 
   </body>
