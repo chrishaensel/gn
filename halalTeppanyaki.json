@@ -1,0 +1,67 @@
+{
+  "categoryName":"HalalTeppanyaki",
+  "categoryTitle":"Halal Teppanyaki Menu",
+  "categoryDescription":"Genji Dinners includes our Pi's Yum Yum and Ginger sauces, Onion Soup, House Salad, Shrimp Appetizer, Vegetables, Fried Rice, and Caramel Popcorn Chicken or Shrimp Fried Rice available at an additional charge. Steamed Rise available upon request.",
+  "entre":[
+    {
+      "dishName": "Teriyaki Chicken",
+      "dishPrice": 22,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Steak & Teriyaki Chicken",
+      "dishPrice": 28,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Steak",
+      "dishPrice": 29,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Steak & Lobster Tail",
+      "dishPrice": 36,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Shrimp & Teriyaki Chicken",
+      "dishPrice": 28,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Filet Mignon & Teriyaki Chicken",
+      "dishPrice": 32,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Lobster & Teriyaki Chicken",
+      "dishPrice": 36,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Filet Mignon & Shrimp",
+      "dishPrice": 35,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Steak & Shrimp",
+      "dishPrice": 28,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Filet Mignon & Scallops",
+      "dishPrice": 37,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Hibachi Steak & Scallops",
+      "dishPrice": 31,
+      "dishDescription": false
+    },
+    {
+      "dishName": "Filet Mignon & Lobster Tail",
+      "dishPrice": 39,
+      "dishDescription": false
+    }
+  ]
+}

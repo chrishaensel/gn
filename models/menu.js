@@ -29,7 +29,7 @@ exports.create = (article, callback) => {
 /**
  * @function find
  * @param query
- * An 
+ * An
  * @param callback
  * Callback function
  * @example
@@ -53,7 +53,7 @@ exports.create = (article, callback) => {
  };
 
 /**
- * update an article
+ * update an item
  * @function
  * @param {object}
  * The user object
@@ -84,13 +84,13 @@ exports.update = (query, updateInfo, callback) => {
  * @param {function}
  * Callback function with err, result
 */
-exports.destroy = (article, callback) => {
+exports.destroy = (item, callback) => {
   // Use connect method to connect to the DB Server
   MongoClient.connect(mongoUrl, (err, db) => {
     // Get the documents collection
     const collection = db.collection('menu');
     // Find some documents
-    collection.remove(article, (removeErr, removeResult) => {
+    collection.remove(item, (removeErr, removeResult) => {
       // Parsing mongoDoc
       callback(removeErr, removeResult);
       // Close connection
