@@ -116,13 +116,13 @@
       "dishName":"Vegas",
       "dishPrice":12.95,
       "dishDescription":"Fried Krab Stick, Cream Cheese roll, Spicy Tuna, Tempura Crunch topping Teriyaki, Honey Mustard sauce",
-      "rawIngredients":true,
+      "rawIngredients":true
     },
     {
       "dishName":"Yummy",
       "dishPrice":11.95,
       "dishDescription":"Crabstick, Mozzerela Cheese, Cucumber roll, Spicy Salmon, Deep Fried Sweet Potato topping",
-      "rawIngredients":true,
+      "rawIngredients":true
     },
     {
       "dishName":"Tiger",
@@ -194,7 +194,7 @@
       "dishName":"Spider",
       "dishPrice":11.95,
       "dishDescription":"Deep Fried Soft Shell Crab, Cucumber, Avocado roll, Teriyaki sauce"
-    },
+    }
   ],
   "disclamers":[
     {"message":"* indicates raw or undercooked ingredients"},
