@@ -1,8 +1,204 @@
 {
   "categoryName":"SushiSashimiRolls",
   "categoryTitle":"Sushi, Sashimi & Rolls",
-  "categoryDescription": false,
-  "sushi":[],
-  "sashimi":[],
-  "rolls":[]
+  "categoryDescription": "Sushi, Sashimi, and Rolls come with Miso Soup (or) Genji Salad",
+  "combinationSushiSashimi":[
+    {
+      "dishName": "Sushi Dinner",
+      "dishPrice": 18.95,
+      "dishDescription": "8 pc. Sushi with California (or) Spicy Tuna roll",
+      "rawIngredients":true
+    },
+    {
+      "dishName": "Sushi & Sashimi Combo",
+      "dishPrice": 23.95,
+      "dishDescription":"5 pc. Sushi 6 Pc. Sashimi With California (or) Spicy Tuna Roll ",
+      "rawIngredients":true
+    },
+    {
+      "dishName": "Sashimi Dinner",
+      "dishPrice": 22.95,
+      "dishDescription":"14 pc. Sashimi",
+      "rawIngredients":true
+    },
+    {
+      "dishName": "Premium Love Boat",
+      "dishPrice": 69.99,
+      "dishDescription":"8 pc. Nigiri & 15 pc. Sashimi with Tuna, Dragon, and volcano roll",
+      "rawIngredients":true
+    }
+  ],
+  "specialRolls":[
+    {
+      "dishName":"kamikaze (deep fried roll)",
+      "dishPrice":8.95,
+      "dishDescription":"Spicy Tuna, Cream Cheese roll, Jalapeño topping, Spicy Mayo, Sriracha, Teriyaki sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Spartan (cooked roll)",
+      "dishPrice":10.95,
+      "dishDescription":"(Torched) Crab Salad, Avocado roll, Salmon, Avocado topping, Wasabi sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Novi",
+      "dishPrice":11.95,
+      "dishDescription":"Crabstick, Avocado, Cucumber roll, Spicy Crab Salad, Cream Cheese, Tobiko topping Sweet, Spicy Mayo sauce",
+      "rawIngredients":true
+    },
+    {
+      "dishName":"Tokyo",
+      "dishPrice":11.95,
+      "dishDescription":"(Torched) Shrimp Tempura roll, Avocado, Tempura Crunch topping, Sweet Spicy sauce",
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Blossom (deep fried roll)",
+      "dishPrice":12.95,
+      "dishDescription":"Panko Bread Crumb, Krab Stick, Cucumber, Avocado roll, Cream Cheese, Crab Salad, Jalapeño topping, Sweet sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Red Wings (cooked roll)",
+      "dishPrice":11.95,
+      "dishDescription":"(Torched) California roll, Tuna, Salmon topping, Spicy Mayo sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Salmon On the Beach (cooked roll)",
+      "dishPrice":12.95,
+      "dishDescription":"(torched) Cooked Salmon roll, Krab Stick, Cream Cheese, Avocado topping, Sweet sauce"
+    },
+    {
+      "dishName":"Fuji (cooked roll)",
+      "dishPrice":7.95,
+      "dishDescription":"Cream Cheese, Avocado, Cucumber, Krab Stick roll, Panko Bread Crumb topping, Spicy Mayo, Sweet, Teriyaki sauce",
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Fireball (cooked roll)",
+      "dishPrice":11.95,
+      "dishDescription":"(Baked) Shrimp Tempura, Crab Salad, Avocado roll, Krab Stick topping, Spicy Mayo sauce",
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Wolverine (cooked roll)",
+      "dishPrice":12.95,
+      "dishDescription":"(Baked) Shrimp Tempura, Krab Stick, Avocado roll, Salmon topping, Spicy Mayo sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Premium California",
+      "dishPrice":10.95,
+      "dishDescription":"Crabstick, Avocado, Cucumber roll, Crab Salad topping, Teriyaki sauce"
+    },
+    {
+      "dishName":"Volcano",
+      "dishPrice":7.95,
+      "dishDescription":"Cream Cheese, Avocado, Cucumber, Krab Stick roll, Panko Bread Crumb topping, Spicy Mayo, Sweet, Teriyaki sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Phoenix",
+      "dishPrice":11.95,
+      "dishDescription":"Shrimp Tempura, Avocado, Cucumber, Cream Cheese roll, Spicy Tuna, Tempura Crunch topping, Teriyaki, Honey Mustard sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Vegas",
+      "dishPrice":12.95,
+      "dishDescription":"Fried Krab Stick, Cream Cheese roll, Spicy Tuna, Tempura Crunch topping Teriyaki, Honey Mustard sauce",
+      "rawIngredients":true,
+    },
+    {
+      "dishName":"Yummy",
+      "dishPrice":11.95,
+      "dishDescription":"Crabstick, Mozzerela Cheese, Cucumber roll, Spicy Salmon, Deep Fried Sweet Potato topping",
+      "rawIngredients":true,
+    },
+    {
+      "dishName":"Tiger",
+      "dishPrice":9.95,
+      "dishDescription":"California roll, Shrimp, Avocado topping"
+    },
+    {
+      "dishName":"Tuna On The Beach",
+      "dishPrice":12.95,
+      "dishDescription":"Spicy Tuna , Cucumber roll, Tuna, White Tuna, Tobiko sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Crazy California",
+      "dishPrice":11.95,
+      "dishDescription":"Krab Stick, Avocado, Cucumber roll, Tuna, Crab Salad, Masago topping",
+      "rawIngredients":true
+    },
+    {
+      "dishName":"Mexican",
+      "dishPrice":8.95,
+      "dishDescription":"(5 pc.) Shrimp Tempura, Krab Stick, Avocado, Cucumber roll, Teriyaki, Spicy Mayo sauce",
+      "hotSpicy":true
+    },
+    {
+      "dishName":"New York",
+      "dishPrice":11.95,
+      "dishDescription":"Crab Salad, Avocado roll, Tuna, Salmon, Lemon topping",
+      "rawIngredients":true
+    },
+    {
+      "dishName":"Salmon Lover",
+      "dishPrice":10.95,
+      "dishDescription":"Spicy Salmon, Avocado Tempura Crunch roll, Salmon, Avocado topping",
+      "rawIngredients":true
+    },
+    {
+      "dishName":"Rainbow",
+      "dishPrice":11.95,
+      "dishDescription":"California roll, Tuna, Tilapia, Yellowtail, Shrimp topping",
+      "rawIngredients":true
+    },
+    {
+      "dishName":"Dragon",
+      "dishPrice":12.95,
+      "dishDescription":"Shrimp Tempura roll, Fresh Water Eel, Avocado topping, Teriyaki sauce"
+    },
+    {
+      "dishName":"Crazy Hot",
+      "dishPrice":11.95,
+      "dishDescription":"Spicy Tuna, Cucumber roll, Spicy Crab Salad, Jalapeño topping, Spicy Mayo, Sriracha sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Crunch",
+      "dishPrice":8.95,
+      "dishDescription":"Krab Stick, Avocado, Cucumber, Shrimp Tempura roll, Tempura Crunch topping, Teriyaki sauce"
+    },
+    {
+      "dishName":"Devil",
+      "dishPrice":7.95,
+      "dishDescription":"(6 pc.) Krab Stick, Spicy Tuna, Jalapeño, Avocado roll, Tempura Crunch topping, Sriracha, Teriyaki sauce",
+      "rawIngredients":true,
+      "hotSpicy":true
+    },
+    {
+      "dishName":"Spider",
+      "dishPrice":11.95,
+      "dishDescription":"Deep Fried Soft Shell Crab, Cucumber, Avocado roll, Teriyaki sauce"
+    },
+  ],
+  "disclamers":[
+    {"message":"* indicates raw or undercooked ingredients"},
+    {"message":">| indicates hot or spicy ingredients used"}
+  ]
+
 }

@@ -63,5 +63,51 @@
       "dishPrice": 39,
       "dishDescription": false
     }
+  ],
+  "sides":[
+    {
+      "dishName": "Filet Mignon",
+      "dishPrice": 13
+    },
+    {
+      "dishName": "Hibachi Scallops",
+      "dishPrice": 9
+    },
+    {
+      "dishName": "Hibachi Steak",
+      "dishPrice": 9
+    },
+    {
+      "dishName": "Vegetables",
+      "dishPrice": 4
+    },
+    {
+      "dishName": "Jumbo Shrimp",
+      "dishPrice": 9
+    },
+    {
+      "dishName": "Teriyaki Chicken",
+      "dishPrice": 7
+    },
+    {
+      "dishName": "Hibachi Shrimp",
+      "dishPrice": 8
+    },
+    {
+      "dishName": "Shrimp Fried Rice",
+      "dishPrice": 4
+    },
+    {
+      "dishName": "Lobster Tail",
+      "dishPrice": 20
+    },
+    {
+      "dishName": "Chicken Fried Rice",
+      "dishPrice": 3
+    },
+    {
+      "dishName": "Salmon",
+      "dishPrice": 10
+    }
   ]
 }
