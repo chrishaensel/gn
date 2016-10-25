@@ -61,10 +61,10 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) =>{
-			const TeppanyakiDinner = JSON.parse(fs.readFileSync('./menuCategories/teppanyakiDinner.json', 'utf8'));
-		  menus.create(TeppanyakiDinner,(createErr,createRes)=> {
-		    handyUtils.debug('createErr in populate-menu TeppanyakiDinner',createErr);
-		    handyUtils.debug('createRes in populate-menu TeppanyakiDinner',createRes);
+			const Teppanyaki = JSON.parse(fs.readFileSync('./menuCategories/teppanyaki.json', 'utf8'));
+		  menus.create(Teppanyaki,(createErr,createRes)=> {
+		    handyUtils.debug('createErr in populate-menu Teppanyaki',createErr);
+		    handyUtils.debug('createRes in populate-menu Teppanyaki',createRes);
 				next();
 		  });
 		},
@@ -77,10 +77,10 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) => {
-			const SushiSashimiRolls = JSON.parse(fs.readFileSync('./menuCategories/sushiSashimiRolls.json', 'utf8'));
-			menus.create(SushiSashimiRolls,(createErr,createRes)=> {
-		    handyUtils.debug('createErr in populate-menu SushiSashimiRolls',createErr);
-		    handyUtils.debug('createRes in populate-menu SushiSashimiRolls',createRes);
+			const Sushi = JSON.parse(fs.readFileSync('./menuCategories/sushi.json', 'utf8'));
+			menus.create(Sushi,(createErr,createRes)=> {
+		    handyUtils.debug('createErr in populate-menu Sushi',createErr);
+		    handyUtils.debug('createRes in populate-menu Sushi',createRes);
 				next();
 		  });
 		},
@@ -93,10 +93,10 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) => {
-			const AppetizersSideDishes = JSON.parse(fs.readFileSync('./menuCategories/appetizersSideDishes.json', 'utf8'));
-			menus.create(AppetizersSideDishes,(createErr,createRes)=> {
-		    handyUtils.debug('createErr in populate-menu AppetizersSideDishes',createErr);
-		    handyUtils.debug('createRes in populate-menu AppetizersSideDishes',createRes);
+			const Appetizer = JSON.parse(fs.readFileSync('./menuCategories/appetizer.json', 'utf8'));
+			menus.create(Appetizer,(createErr,createRes)=> {
+		    handyUtils.debug('createErr in populate-menu Appetizer',createErr);
+		    handyUtils.debug('createRes in populate-menu Appetizer',createRes);
 				next();
 		  });
 		},

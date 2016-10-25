@@ -6,7 +6,7 @@ module.exports = (app) => {
   app.get('/menus/:menuCategory', (req, res) => {
     console.log(req.params.menuCategory);
       const dataForView = { layout:'main', title: 'Menus',  message: req.flash() };
-      const categoryList = ['Appetizer', 'Teepanyaki', 'HalalTeppanyaki', 'Sushi', 'BarDrink', 'HappyHour', 'EarlyBird'];
+      const categoryList = ['Appetizer', 'Teepanyaki', 'HalalTeppanyaki', 'Sushi', 'Bar', 'HappyHour', 'EarlyBird'];
       if (!categoryList.indexOf(req.params.menuCategory)) {
         // Get the menu category from database
         menus.find({ categoryName: req.params.menuCategory }, (findErr,findRes)=> {
