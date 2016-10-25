@@ -5,6 +5,6 @@ node_modules
 //env
 .env
 // keys
-./keys/private.pem
-./keys/public.pub
+/keys/private.pem
+/keys/public.pub
 *.log
