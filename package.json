@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/companypi/gn#readme",
   "dependencies": {
+    "async": "^2.1.2",
     "body-parser": "^1.15.2",
     "co": "^4.6.0",
     "connect-flash": "^0.1.1",
