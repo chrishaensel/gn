@@ -2,17 +2,16 @@
   "categoryName":"AppetizersSideDishes",
   "categoryTitle":"Appetizers & Side Dishes",
   "categoryDescription": false,
-  "appetizers":[],
-  "sides":[
+  "appetizers":[
     {
       "dishName": "Agedashi",
       "dishPrice": 5,
-      "dishDescription": "Quick Fried Silken Tofu, Bonito Flakes, Tempura Sauce."
+      "dishDescription": "Quick Fried Silken Tofu, Bonito Flakes, Tempura Sauce"
     },
     {
       "dishName": "Beef Dumplings",
       "dishPrice": 5,
-      "dishDescription": "Groud beef, Onions, Carrots, Cabbage."
+      "dishDescription": "Groud beef, Onions, Carrots, Cabbage"
     },
     {
       "dishName": "Chicken Karage",
@@ -20,9 +19,49 @@
       "dishDescription": "Japanese Style Fried Chicken."
     },
     {
-      "dishName": "Chicken Karage",
+      "dishName": "Chicken Wings",
       "dishPrice": 6,
-      "dishDescription": "Japanese Style Fried Chicken."
+      "dishDescription": "Deep Fried Chicken Wings, Sweet Chili Sauce"
+    },
+    {
+      "dishName": "Crabmeat Cheese",
+      "dishPrice": 5,
+      "dishDescription": "Deep Fried Crispy Woton, Crabmeat, Cream Cheese, Sweet & Sour Sauce"
+    },
+    {
+      "dishName": "Fried Calamary",
+      "dishPrice": 7,
+      "dishDescription": "Deep Fried Squid, Chili Peppers"
+    },
+    {
+      "dishName": "Fried Shrimp Spring Roll",
+      "dishPrice": 5,
+      "dishDescription": "Quick Fried Crispy Woton, Shrimp, Sweet Chili Peppers"
+    },
+    {
+      "dishName": "Fried Shrimp Spring Roll",
+      "dishPrice": 5,
+      "dishDescription": "Quick Fried Crispy Woton, Shrimp, Sweet Chili Peppers"
+    },
+    {
+      "dishName": "Edamame",
+      "dishPrice": 5,
+      "dishDescription": "Japanese Soybeans"
+    },
+    {
+      "dishName": "Satay Chicken",
+      "dishPrice": 5,
+      "dishDescription": "Skewered, Grilled, Curry Chicken, Coconut-Peanut Sauce"
+    },
+    {
+      "dishName": "Seaweed Salad",
+      "dishPrice": 5,
+      "dishDescription": "Tossed Seaweed, Sesame Seeds, Sesame Oil, Vinegar"
+    },
+    {
+      "dishName": "Shrimp Tempura",
+      "dishPrice": 6,
+      "dishDescription": "Quick Fried Shrimp, Vegetables, Tempura Sauce"
     }
   ]
 }
