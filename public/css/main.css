@@ -497,7 +497,7 @@ COLORS
   background-color: rgba(244, 83, 28, 0.3); }
 
 .orange-bg {
-  background-color: #f4531c; }
+  background-color: #ff753e; }
 
 .mustard-bg {
   background-color: #e3b15b; }
@@ -916,7 +916,7 @@ h1, h2, h3, h4, h5 {
 
 html, body {
   margin: 0;
-  color: #fff; }
+  color: white; }
 
 .menu-page-wrapper {
   background-color: #f4f4f4; }
@@ -994,7 +994,8 @@ nav {
       color: #ffcbbb;
       transition: all 0.5s ease 0s; }
       .menu-nav .menu-nav-content a:hover {
-        color: white; }
+        color: white;
+        text-shadow: #7c5a50; }
 
 .page {
   float: left;
