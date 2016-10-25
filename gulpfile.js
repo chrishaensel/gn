@@ -61,7 +61,7 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) =>{
-			const TeppanyakiDinner = JSON.parse(fs.readFileSync('./teppanyakiDinner.json', 'utf8'));
+			const TeppanyakiDinner = JSON.parse(fs.readFileSync('./menuCategories/teppanyakiDinner.json', 'utf8'));
 		  menus.create(TeppanyakiDinner,(createErr,createRes)=> {
 		    handyUtils.debug('createErr in populate-menu TeppanyakiDinner',createErr);
 		    handyUtils.debug('createRes in populate-menu TeppanyakiDinner',createRes);
@@ -69,7 +69,7 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) => {
-			const HalalTeppanyaki = JSON.parse(fs.readFileSync('./halalTeppanyaki.json', 'utf8'));
+			const HalalTeppanyaki = JSON.parse(fs.readFileSync('./menuCategories/halalTeppanyaki.json', 'utf8'));
 			menus.create(HalalTeppanyaki,(createErr,createRes)=> {
 		    handyUtils.debug('createErr in populate-menu HalalTeppanyaki',createErr);
 		    handyUtils.debug('createRes in populate-menu HalalTeppanyaki',createRes);
@@ -77,7 +77,7 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) => {
-			const SushiSashimiRolls = JSON.parse(fs.readFileSync('./sushiSashimiRolls.json', 'utf8'));
+			const SushiSashimiRolls = JSON.parse(fs.readFileSync('./menuCategories/sushiSashimiRolls.json', 'utf8'));
 			menus.create(SushiSashimiRolls,(createErr,createRes)=> {
 		    handyUtils.debug('createErr in populate-menu SushiSashimiRolls',createErr);
 		    handyUtils.debug('createRes in populate-menu SushiSashimiRolls',createRes);
@@ -85,7 +85,7 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) => {
-			const Bar = JSON.parse(fs.readFileSync('./bar.json', 'utf8'));
+			const Bar = JSON.parse(fs.readFileSync('./menuCategories/bar.json', 'utf8'));
 			menus.create(Bar,(createErr,createRes)=> {
 		    handyUtils.debug('createErr in populate-menu Bar',createErr);
 		    handyUtils.debug('createRes in populate-menu Bar',createRes);
@@ -93,7 +93,7 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) => {
-			const AppetizersSideDishes = JSON.parse(fs.readFileSync('./appetizersSideDishes.json', 'utf8'));
+			const AppetizersSideDishes = JSON.parse(fs.readFileSync('./menuCategories/appetizersSideDishes.json', 'utf8'));
 			menus.create(AppetizersSideDishes,(createErr,createRes)=> {
 		    handyUtils.debug('createErr in populate-menu AppetizersSideDishes',createErr);
 		    handyUtils.debug('createRes in populate-menu AppetizersSideDishes',createRes);
@@ -101,7 +101,7 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) => {
-			const ChildrenMenu = JSON.parse(fs.readFileSync('./childrenMenu.json', 'utf8'));
+			const ChildrenMenu = JSON.parse(fs.readFileSync('./menuCategories/childrenMenu.json', 'utf8'));
 			menus.create(ChildrenMenu,(createErr,createRes)=> {
 		    handyUtils.debug('createErr in populate-menu ChildrenMenu',createErr);
 		    handyUtils.debug('createRes in populate-menu ChildrenMenu',createRes);
@@ -109,7 +109,7 @@ gulp.task('populate-menu',() => {
 		  });
 		},
 		(next) => {
-			const HappyHour = JSON.parse(fs.readFileSync('./happyHour.json', 'utf8'));
+			const HappyHour = JSON.parse(fs.readFileSync('./menuCategories/happyHour.json', 'utf8'));
 			menus.create(HappyHour,(createErr,createRes)=> {
 		    handyUtils.debug('createErr in populate-menu HappyHour',createErr);
 		    handyUtils.debug('createRes in populate-menu HappyHour',createRes);
