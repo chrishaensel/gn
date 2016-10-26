@@ -3,18 +3,28 @@ module.exports = (app) => {
   const menus = require('../models/menu');
 
   /* Menus */
+  app.get('/menus', (req, res) => {
+    const dataForView = { layout:'main', title: 'Menus',  message: req.flash() };
+    res.render('menus', dataForView);
+  });
+  /* Menus > menuCategory */
   app.get('/menus/:menuCategory', (req, res) => {
-    console.log(req.params.menuCategory);
+    handyUtils.debug('req.params.menuCategory ', req.params.menuCategory);
       const dataForView = { layout:'main', title: 'Menus',  message: req.flash() };
-      const categoryList = ['Appetizer', 'Teepanyaki', 'HalalTeppanyaki', 'Sushi', 'Bar', 'HappyHour', 'EarlyBird'];
-      if (!categoryList.indexOf(req.params.menuCategory)) {
+      if (req.params.menuCategory === 'Appetizer' ||
+       req.params.menuCategory === 'Teppanyaki' ||
+       req.params.menuCategory === 'HalalTeppanyaki' ||
+       req.params.menuCategory === 'Sushi' ||
+       req.params.menuCategory === 'Bar' ||
+       req.params.menuCategory === 'HappyHour' ||
+       req.params.menuCategory === 'EarlyBird') {
         // Get the menu category from database
         menus.find({ categoryName: req.params.menuCategory }, (findErr,findRes)=> {
           handyUtils.debug('findErr menuCategory at /menus/:menuCategory', findErr);
           handyUtils.debug('findRes menuCategory at /menus/:menuCategory', findRes);
           dataForView.menuCategory = findRes[0];
           handyUtils.debug('dataForView at /menus/:menuCategory', dataForView);
-          res.render('menus', dataForView);
+          res.render('menusCategory', dataForView);
         });
 
       } else {
