@@ -60,8 +60,8 @@
     "splits":[
       {
         "drinkName":"Perrier Jouet Grand Brut",
-        "drinkPrice": 18,
-        "drinkDescription":"Champagne"
+        "drinkPrice": 42,
+        "drinkDescription":"Champagne(Half Bottle)"
       },
       {
         "drinkName":"Mumm 'Prestige'",
@@ -69,7 +69,7 @@
         "drinkDescription":"Napa"
       }
     ],
-    "shampayn":[
+    "champagne":[
       {
         "drinkName":"Perrier Jouet",
         "drinkPrice": 82,
@@ -186,13 +186,13 @@
   "redWine":[
     {
       "drinkName":"Pinot Noir",
-      "drinkPrice":" 10 / 38",
-      "drinkDescription":"Meiomi, CA"
+      "drinkPrice":"9 / 32",
+      "drinkDescription":"Bread & Butter, Napa, CA"
     },
     {
       "drinkName":"Pinot Noir",
-      "drinkPrice":"9 / 32",
-      "drinkDescription":"Bread & Butter, Napa, CA"
+      "drinkPrice":" 10 / 38",
+      "drinkDescription":"Meiomi, CA"
     },
     {
       "drinkName":"Merlot",
@@ -215,9 +215,9 @@
       "drinkDescription":"Terra D'Oro, Amador, CA"
     },
     {
-      "drinkName":"Bv Costal Estate",
+      "drinkName":"Cabernet Sauvignon",
       "drinkPrice":"10 /38",
-      "drinkDescription":"Cabernet Sauvignon, Sonoma, CA"
+      "drinkDescription":"Bv Costal Estate , Sonoma, CA"
     },
     {
       "drinkName":"Cabernet Sauvignon",
@@ -227,19 +227,19 @@
   ],
   "redWineBlends":[
     {
-      "drinkName":"Zinfadel, Merlot & Cabernet Sauvignon",
+      "drinkName":"Red Blend",
       "drinkDescription":"Duckhorn 'Paraduxx Z', Napa, CA",
-      "drinkPrice":"17 / 66"
+      "drinkPrice":66
     },
     {
       "drinkName":"Bourdeaux Style Blend",
       "drinkDescription":"Fredrick 'Spring Valley', Walla Walla Valley, WA",
-      "drinkPrice":"24 / 94"
+      "drinkPrice":94
     },
     {
-      "drinkName":"Justin",
+      "drinkName":"Justin Savant",
       "drinkDescription":"Savant '11, Paso Robles, CA",
-      "drinkPrice":"40 / 158"
+      "drinkPrice":158
     }
   ],
   "redWineByTheBottle":[
@@ -468,6 +468,11 @@ Momokawa Sampler
         "drinkName":"Michelob Ultra",
         "drinkDescription":false,
         "drinkPrice":4
+      },
+      {
+        "drinkName":"Miller Lite",
+        "drinkDescription":false,
+        "drinkPrice":4
       }
     ],
     "importBeer":[
@@ -638,59 +643,9 @@ Momokawa Sampler
     ],
     "Premium": [
       {
-        "drinkName":"Justin Blends",
-        "drinkDescription":"Isosceles, Paso Robles, CA",
-        "drinkPrice":160
-      },
-      {
-        "drinkName":"Cabernet Sauvignon",
-        "drinkDescription":"Nickel & Nickel 'Branding Iron' '09 Oakville, Napa, CA",
-        "drinkPrice":225
-      },
-      {
-        "drinkName":"Cabernet Sauvignon",
-        "drinkDescription":"Black Stallion '10, Napa Valley, CA",
-        "drinkPrice":225
-      },
-      {
-        "drinkName":"Zinfadel",
-        "drinkDescription":"Renwood '11, CA",
-        "drinkPrice":60
-      },
-      {
-        "drinkName":"Cabernet Sauvignon",
-        "drinkDescription":"Ramsay '11, North Coast, Napa, CA",
-        "drinkPrice":40
-      },
-      {
-        "drinkName":"Cabernet Sauvignon",
-        "drinkDescription":"Axios '05, Napa Valley, CA",
-        "drinkPrice":280
-      },
-      {
-        "drinkName":"Red Wine",
-        "drinkDescription":"Alto Moncayo, Garnacha '10, Spain",
-        "drinkPrice":150
-      },
-      {
-        "drinkName":"Cabernet Sauvignon",
-        "drinkDescription":"O'Shaughnessy '12, Howell Mt., CA",
-        "drinkPrice":225
-      },
-      {
-        "drinkName":"Zinfadel",
-        "drinkDescription":"Old Ghost '10, Lodi, CA",
-        "drinkPrice":125
-      },
-      {
-        "drinkName":"Red Wine",
-        "drinkDescription":"Opus ONe '09, Napa Valley, Ca",
-        "drinkPrice":550
-      },
-      {
-        "drinkName":"Cabernet Sauvignon",
-        "drinkDescription":"Fredrick, Spring Valley '09 Walla Walla, CA",
-        "drinkPrice":96
+        "drinkName":"Pinot Noir",
+        "drinkDescription":"Martinelli '12 'Bella Vigna' Russian River Valley, CA",
+        "drinkPrice":170
       },
       {
         "drinkName":"Merlot",
@@ -703,15 +658,65 @@ Momokawa Sampler
         "drinkPrice":130
       },
       {
+        "drinkName":"Zinfadel",
+        "drinkDescription":"Old Ghost '10, Lodi, CA",
+        "drinkPrice":125
+      },
+      {
+        "drinkName":"Justin (Red Blend)",
+        "drinkDescription":"Isosceles, Paso Robles, CA",
+        "drinkPrice":160
+      },
+      {
+        "drinkName":"Zinfadel",
+        "drinkDescription":"Renwood '11, CA",
+        "drinkPrice":60
+      },
+      {
+        "drinkName":"Red Wine",
+        "drinkDescription":"Alto Moncayo, Garnacha '10, Spain",
+        "drinkPrice":150
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Ramsay '11, North Coast, Napa, CA",
+        "drinkPrice":40
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Axios '05, Napa Valley, CA",
+        "drinkPrice":280
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"O'Shaughnessy '12, Howell Mt., CA",
+        "drinkPrice":225
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Fredrick, Spring Valley '09 Walla Walla, CA",
+        "drinkPrice":96
+      },
+      {
         "drinkName":"Cabernet Sauvignon",
         "drinkDescription":"Silver Oak '11 Alexander Valley, CA",
         "drinkPrice":210
       },
       {
-        "drinkName":"Pinot Noir",
-        "drinkDescription":"Martinelli '12 'Bella Vigna' Russian River Valley, CA",
-        "drinkPrice":170
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Nickel & Nickel 'Branding Iron' '09 Oakville, Napa, CA",
+        "drinkPrice":225
       },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Black Stallion '10, Napa Valley, CA",
+        "drinkPrice":225
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Opus ONe '09, Napa Valley, Ca",
+        "drinkPrice":550
+      }
     ]
   }
 }
