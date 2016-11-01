@@ -2,5 +2,721 @@
   "categoryName":"Bar",
   "categoryTitle":"Bar Menu",
   "categoryDescription":false,
-  "drinks":[]
+  "houseCraftedCocktails":[
+    {
+      "drinkName":"Blueberry Mule",
+      "drinkPrice":10,
+      "drinkDescription":"Stoli Blueberry, Fresh Muddled Blueberries, Fresh Lime, Barritt's Ginger Beer"
+    },
+    {
+      "drinkName":"Blue Horizon",
+      "drinkPrice":10,
+      "drinkDescription":"Ketel One Vodka, Blue Curaçao, Pineapple Juice, Lemon Twist"
+    },
+    {
+      "drinkName":"Genji Margarita",
+      "drinkPrice": 9,
+      "drinkDescription":"El Mayor Blanco, House Sours, Triple Sec, Salt Rim"
+    },
+    {
+      "drinkName":"New Fashion",
+      "drinkPrice": 11,
+      "drinkDescription":"Makers Mark, Cherry Heering, Orange, Ginger Beer, Bitters"
+    },
+    {
+      "drinkName":"Genji Star",
+      "drinkPrice": 10,
+      "drinkDescription":"Stoli Vodka, Cointreau, Chambord Lemonade, Lemon Twist"
+    },
+    {
+      "drinkName":"Kusanagi",
+      "drinkPrice": 10,
+      "drinkDescription":"Ketel One Vodka, Midori, Lemon Juice"
+    }
+  ],
+  "genjiMartinis":[
+    {
+      "drinkName":"Pink Martini",
+      "drinkPrice": 9,
+      "drinkDescription":"Finlandia Pink Grapefruit, X-Rated Fusion"
+    },
+    {
+      "drinkName":"Genji Cable Car",
+      "drinkPrice": 12,
+      "drinkDescription":"10 Cane, Fresh Citrus, Grand Marnier, Cinnamon Sugar Rim"
+    },
+    {
+      "drinkName":"Amaterasu",
+      "drinkPrice": 10,
+      "drinkDescription":"Ketel One Vodka, Peach Schnapps, Cranberry Juice, Lemon Twist"
+    },
+    {
+      "drinkName":"Chocolate Cherry Martini",
+      "drinkPrice": 11,
+      "drinkDescription":"Godiva Chocolate Liqueur, Stoli Vanilla, Cherry Heering"
+    },
+  ],
+  "sparkling":{
+    "splits":[
+      {
+        "drinkName":"Perrier Jouet Grand Brut",
+        "drinkPrice": 42,
+        "drinkDescription":"Champagne(Half Bottle)"
+      },
+      {
+        "drinkName":"Mumm 'Prestige'",
+        "drinkPrice": 12,
+        "drinkDescription":"Napa"
+      }
+    ],
+    "champagne":[
+      {
+        "drinkName":"Perrier Jouet",
+        "drinkPrice": 82,
+        "drinkDescription":"'Grand Brut', Champagne"
+      },
+      {
+        "drinkName":"Veuve Clicquot",
+        "drinkPrice": 98,
+        "drinkDescription":"Finlandia Pink Grapefruit, X-Rated Fusion"
+      },
+      {
+        "drinkName":"Dom Perignon '03",
+        "drinkPrice": 280,
+        "drinkDescription":"Brut, Champagne"
+      }
+    ]
+  },
+  "whiteWine":[
+    {
+      "drinkName":"Moscato D'asti",
+      "drinkPrice": "11 / 42",
+      "drinkDescription":"Beni Di Batasiolo, Piedmont"
+    },
+    {
+      "drinkName":"Riesling",
+      "drinkPrice": "9 / 34",
+      "drinkDescription":"Kung Fu Girl, WA"
+    },
+    {
+      "drinkName":"Riesling",
+      "drinkPrice": "9 / 34",
+      "drinkDescription":"Chateau Grand Traverse 'Late Harvest', MI"
+    },
+    {
+      "drinkName":"Pinot Grigio",
+      "drinkPrice":"8 / 30",
+      "drinkDescription":"Benvolio, Fruili-Venezia, Italy"
+    },
+    {
+      "drinkName":"Sauvignon Blanc",
+      "drinkPrice":"9 /34",
+      "drinkDescription":"Starborough, Marlborough, NZ"
+    },
+    {
+      "drinkName":"Chardonnay",
+      "drinkPrice":"10 / 38",
+      "drinkDescription":"La Crema '12, Sonoma, CA"
+    },
+    {
+      "drinkName":"Chardonnay",
+      "drinkPrice":"12 / 46",
+      "drinkDescription":"Nicolas Potel '11, Burgundy, France"
+    }
+  ],
+  "whiteWineByBottle":[
+    {
+      "drinkName":"Riesling",
+      "drinkPrice":28,
+      "drinkDescription":"Chateau Chantal Semi Dry, MI"
+    },
+    {
+      "drinkName":"Riesling",
+      "drinkPrice":44,
+      "drinkDescription":"Heinz Eifel, Kabinet, Mosel"
+    },
+    {
+      "drinkName":"Gewerztraminer",
+      "drinkPrice":30,
+      "drinkDescription":"Gewurz, Mendocino County, CA"
+    },
+    {
+      "drinkName":"Sauvignon Blanc",
+      "drinkPrice":28,
+      "drinkDescription":"Santa Rita '120', Chile"
+    },
+    {
+      "drinkName":"Sauvignon Blanc",
+      "drinkPrice":55,
+      "drinkDescription":"Chateau de Sancerre '11, France"
+    },
+    {
+      "drinkName":"Chardonnay",
+      "drinkPrice":44,
+      "drinkDescription":"Sonoma-Cutrer 'Russian River Ranches' '11, CA"
+    },
+    {
+      "drinkName":"Chardonnay",
+      "drinkPrice":92,
+      "drinkDescription":"Cakebread '11, Napa, CA"
+    },
+    {
+      "drinkName":"Chardonnay",
+      "drinkPrice":110,
+      "drinkDescription":"Vincent Girardin '10, Puligny-Montrachet, Burgundy, OR"
+    },
+    {
+      "drinkName":"Chardonnay",
+      "drinkPrice":98,
+      "drinkDescription":"Francois Carillon '10, Puligny-Montrachet, Burgundy, OR"
+    }
+  ],
+  "redWineBlush":[
+    {
+      "drinkName":"Rose",
+      "drinkPrice":"8 / 30",
+      "drinkDescription":"Muga, Rioja"
+    },
+    {
+      "drinkName":"Secco Sparkling Rose",
+      "drinkPrice":"9 / 36",
+      "drinkDescription":"Italy"
+    }
+  ],
+  "redWine":[
+    {
+      "drinkName":"Pinot Noir",
+      "drinkPrice":"9 / 32",
+      "drinkDescription":"Bread & Butter, Napa, CA"
+    },
+    {
+      "drinkName":"Pinot Noir",
+      "drinkPrice":" 10 / 38",
+      "drinkDescription":"Meiomi, CA"
+    },
+    {
+      "drinkName":"Merlot",
+      "drinkPrice":10,
+      "drinkDescription":"Chateau Ste Michelle, Columbia Valley, WA"
+    },
+    {
+      "drinkName":"Chianti",
+      "drinkPrice":"9 / 34",
+      "drinkDescription":"Ruffino Chianti Classico, Italy"
+    },
+    {
+      "drinkName":"Malbec",
+      "drinkPrice":"8 / 30",
+      "drinkDescription":"Tinto-Negro, Mendoza, Argentina"
+    },
+    {
+      "drinkName":"Zinfadel",
+      "drinkPrice":"11 / 42",
+      "drinkDescription":"Terra D'Oro, Amador, CA"
+    },
+    {
+      "drinkName":"Cabernet Sauvignon",
+      "drinkPrice":"10 /38",
+      "drinkDescription":"Bv Costal Estate , Sonoma, CA"
+    },
+    {
+      "drinkName":"Cabernet Sauvignon",
+      "drinkPrice":"12 / 46",
+      "drinkDescription":"Joel Gott '815', Napa, CA"
+    }
+  ],
+  "redWineBlends":[
+    {
+      "drinkName":"Red Blend",
+      "drinkDescription":"Duckhorn 'Paraduxx Z', Napa, CA",
+      "drinkPrice":66
+    },
+    {
+      "drinkName":"Bourdeaux Style Blend",
+      "drinkDescription":"Fredrick 'Spring Valley', Walla Walla Valley, WA",
+      "drinkPrice":94
+    },
+    {
+      "drinkName":"Justin Savant",
+      "drinkDescription":"Savant '11, Paso Robles, CA",
+      "drinkPrice":158
+    }
+  ],
+  "redWineByTheBottle":[
+    {
+      "drinkName":"Garnacha",
+      "drinkDescription":"Atteca 'Old Vines', Spain",
+      "drinkPrice":36
+    },
+    {
+      "drinkName":"Shiraz",
+      "drinkDescription":"9 Stones '10, Barossa Valley, CA",
+      "drinkPrice":36
+    }
+    ,
+    {
+      "drinkName":"Monastrell",
+      "drinkDescription":"Juan Gil Jumilla, Spain",
+      "drinkPrice":30
+    },
+    {
+      "drinkName":"Malbec",
+      "drinkDescription":"Trivento Reserva, Mendoza, Argentina",
+      "drinkPrice":48
+    },
+    {
+      "drinkName":"Zinfadel",
+      "drinkDescription":"Renwood, CA",
+      "drinkPrice":38
+    },
+    {
+      "drinkName":"Merlot",
+      "drinkDescription":"Frog's Leap, Rutherford, Napa, CA",
+      "drinkPrice":95
+    },
+    {
+      "drinkName":"Cabernet Sauvignon",
+      "drinkDescription":"Simi '11, Alexander Valley, CA",
+      "drinkPrice":60
+    },
+    {
+      "drinkName":"Cabernet Sauvignon",
+      "drinkDescription":"Justin 'Isosceles' '12, Napa, CA",
+      "drinkPrice":160
+    },
+    {
+      "drinkName":"Cabernet Sauvignon",
+      "drinkDescription":"Opus One '09, Napa, CA",
+      "drinkPrice":340
+    },
+    {
+      "drinkName":"Cabernet Sauvignon",
+      "drinkDescription":"Axios '05, Napa, CA",
+      "drinkPrice":280
+    },
+    {
+      "drinkName":"Cabernet Sauvignon",
+      "drinkDescription":"Dominus 'Christian Moueix' '09, Napa, CA",
+      "drinkPrice":350
+    }
+  ],
+  "sakeByTheCarafe":{
+    "hotSake":[
+      {
+        "drinkName":"Sho Chiku bai",
+        "drinkDescription":false,
+        "drinkPrice":7
+      }
+    ],
+    "chilledSake":[
+      {
+        "drinkName":"Ozeki 'Karatamba' (Honjozu)",
+        "drinkDescription":false,
+        "drinkPrice":"8 / 19"
+      },
+      {
+        "drinkName":"Ozeki 'Yamadanashiki' Tokubetsu (Jun-Mai)",
+        "drinkDescription":false,
+        "drinkPrice":"8 / 19"
+      },
+      {
+        "drinkName":"Tozai living jewel",
+        "drinkDescription":false,
+        "drinkPrice":"12 / 60"
+      }
+    ],
+    "Momokawa":[
+      {
+        "drinkName":"
+Momokawa Sampler
+(Three of any momokawa drinks)",
+        "drinkDescription":false,
+        "drinkPrice":12
+      },
+      {
+        "drinkName":"Fuki Plum Wine",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Momokawa 'Pearl' Nigori",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Momokawa Coconut lemongrass",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Momokawa Raspberry",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Momokawa Pulm",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Momokawa Asian Pear",
+        "drinkDescription":false,
+        "drinkPrice":6
+      }
+    ],
+    "sakeByTheBottle":[
+      {
+        "drinkName":"Ozeki Nigori (Unfiltered) 375mL",
+        "drinkDescription":false,
+        "drinkPrice":15
+      },
+      {
+        "drinkName":"Otokoyama, Hokkaido (Junmai) 500mL",
+        "drinkDescription":false,
+        "drinkPrice":37
+      },
+      {
+        "drinkName":"Murai Sigidama (Junmai) 300mL",
+        "drinkDescription":false,
+        "drinkPrice":25
+      },
+      {
+        "drinkName":"Ty Ku 'Black Bottle' (Ginjo) 330mL",
+        "drinkDescription":false,
+        "drinkPrice":28
+      },
+      {
+        "drinkName":"Wakatake Onikoroshi (Daiginjo) 720mL 'Pearl' Nigori",
+        "drinkDescription":false,
+        "drinkPrice":79
+      },
+      {
+        "drinkName":"Murai Daiginjo Shu 300mL",
+        "drinkDescription":false,
+        "drinkPrice":50
+      },
+      {
+        "drinkName":"Jinro Chamisuk Soju 375mL",
+        "drinkDescription":false,
+        "drinkPrice":12
+      },
+      {
+        "drinkName":"Honkaku Schochu Ikkomon 650mL",
+        "drinkDescription":false,
+        "drinkPrice":60
+      },
+      {
+        "drinkName":"Kubota-Nigata 'Senjyu Tokubetsu' (Honjozo) 720mL",
+        "drinkDescription":false,
+        "drinkPrice":54
+      },
+      {
+        "drinkName":"Ozeki Hana Awaka Sparkling Sake",
+        "drinkDescription":false,
+        "drinkPrice":14
+      },
+      {
+        "drinkName":"Snow Maiden Junmai Nigori",
+        "drinkDescription":false,
+        "drinkPrice":12
+      }
+    ],
+    "draftBeer":[
+      {
+        "drinkName":"Oddside Citra Pale Ale",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Sapporo Premium",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Lagunitas Ipa",
+        "drinkDescription":false,
+        "drinkPrice":6
+      }
+    ],
+    "domesticBeer":[
+      {
+        "drinkName":"Angry Orchard Apple Ginger",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Angry Orchard",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Bud Light",
+        "drinkDescription":false,
+        "drinkPrice":4
+      },
+      {
+        "drinkName":"Budweiser",
+        "drinkDescription":false,
+        "drinkPrice":4
+      },
+      {
+        "drinkName":"Coors Light",
+        "drinkDescription":false,
+        "drinkPrice":4
+      },
+      {
+        "drinkName":"Michelob Ultra",
+        "drinkDescription":false,
+        "drinkPrice":4
+      },
+      {
+        "drinkName":"Miller Lite",
+        "drinkDescription":false,
+        "drinkPrice":4
+      }
+    ],
+    "importBeer":[
+      {
+        "drinkName":"Asahi",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Bitburger",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Corona",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Heinekin Light",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Heinekin",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Hoegaarden",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Kirin Ichiban",
+        "drinkDescription":false,
+        "drinkPrice":"(S) 5 / (L) 7.50"
+      },
+      {
+        "drinkName":"Labatt",
+        "drinkDescription":false,
+        "drinkPrice":4
+      },
+      {
+        "drinkName":"Labatt Light",
+        "drinkDescription":false,
+        "drinkPrice":4
+      },
+      {
+        "drinkName":"Singha",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Stella Artois",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Tsing Tao",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Kaliber N/A",
+        "drinkDescription":false,
+        "drinkPrice":4
+      },
+      {
+        "drinkName":"Sapporo Can 22 oz.",
+        "drinkDescription":false,
+        "drinkPrice":7.50
+      }
+    ],
+    "craftBeer":[
+      {
+        "drinkName":"Atwater Vanilla Java Porter",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Atwater Dirty Blonde",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Ayinger Celebrator Dopplebock",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Bells Two-Hearted",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Blue Moon",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Dogfish Head 90 Minute IPA",
+        "drinkDescription":false,
+        "drinkPrice":8
+      },
+      {
+        "drinkName":"New Belgium Fat Fire",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Frankenmuth Pilsener",
+        "drinkDescription":false,
+        "drinkPrice":5
+      },
+      {
+        "drinkName":"Founder's Dirty Bastard",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Not Your Father's Rootbeer",
+        "drinkDescription":false,
+        "drinkPrice":6
+      },
+      {
+        "drinkName":"Sam Adams Boston Lagger",
+        "drinkDescription":false,
+        "drinkPrice":5
+      }
+    ],
+    "softDrinks&Beverages":[
+      {
+        "drinkName":"Pepsi Products",
+        "drinkDescription":"Pepsi, D. Pepsi, S. Mist, Mt Dew, R. Beer, O. Crush",
+        "drinkPrice":2.50
+      },
+      {
+        "drinkName":"Lemonade",
+        "drinkDescription":false,
+        "drinkPrice":2.50
+      },
+      {
+        "drinkName":"Tonic Water, Soda Water",
+        "drinkDescription":false,
+        "drinkPrice":2.50
+      },
+      {
+        "drinkName":"Red Bull, Sugar-Free Red Bull",
+        "drinkDescription":false,
+        "drinkPrice":4
+      },
+      {
+        "drinkName":"Iced Rea, Tea, Green Tea, Coffee",
+        "drinkDescription":false,
+        "drinkPrice":2.50
+      },
+      {
+        "drinkName":"Orange, Pineapple, Cranberry Juice",
+        "drinkDescription":false,
+        "drinkPrice":2.50
+      },
+      {
+        "drinkName":"Bottled Water Service San Pellegrino 500mL, Acqua Panna 500mL",
+        "drinkDescription":false,
+        "drinkPrice":3.50
+      }
+    ],
+    "Premium": [
+      {
+        "drinkName":"Pinot Noir",
+        "drinkDescription":"Martinelli '12 'Bella Vigna' Russian River Valley, CA",
+        "drinkPrice":170
+      },
+      {
+        "drinkName":"Merlot",
+        "drinkDescription":"Franciscan '10, Napa Valley, CA",
+        "drinkPrice":98
+      },
+      {
+        "drinkName":"Merlot",
+        "drinkDescription":"Frog's Leap '10, Napa Valley, CA",
+        "drinkPrice":130
+      },
+      {
+        "drinkName":"Zinfadel",
+        "drinkDescription":"Old Ghost '10, Lodi, CA",
+        "drinkPrice":125
+      },
+      {
+        "drinkName":"Justin (Red Blend)",
+        "drinkDescription":"Isosceles, Paso Robles, CA",
+        "drinkPrice":160
+      },
+      {
+        "drinkName":"Zinfadel",
+        "drinkDescription":"Renwood '11, CA",
+        "drinkPrice":60
+      },
+      {
+        "drinkName":"Red Wine",
+        "drinkDescription":"Alto Moncayo, Garnacha '10, Spain",
+        "drinkPrice":150
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Ramsay '11, North Coast, Napa, CA",
+        "drinkPrice":40
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Axios '05, Napa Valley, CA",
+        "drinkPrice":280
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"O'Shaughnessy '12, Howell Mt., CA",
+        "drinkPrice":225
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Fredrick, Spring Valley '09 Walla Walla, CA",
+        "drinkPrice":96
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Silver Oak '11 Alexander Valley, CA",
+        "drinkPrice":210
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Nickel & Nickel 'Branding Iron' '09 Oakville, Napa, CA",
+        "drinkPrice":225
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Black Stallion '10, Napa Valley, CA",
+        "drinkPrice":225
+      },
+      {
+        "drinkName":"Cabernet Sauvignon",
+        "drinkDescription":"Opus ONe '09, Napa Valley, Ca",
+        "drinkPrice":550
+      }
+    ]
+  }
 }
