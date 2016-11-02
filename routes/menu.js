@@ -24,7 +24,7 @@ module.exports = (app) => {
           handyUtils.debug('findRes menuCategory at /menus/:menuCategory', findRes);
           dataForView.menuCategory = findRes[0];
           handyUtils.debug('dataForView at /menus/:menuCategory', dataForView);
-          res.render('menusCategory', dataForView);
+          res.render(req.params.menuCategory, dataForView);
         });
 
       } else {

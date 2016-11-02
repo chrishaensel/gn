@@ -115,6 +115,14 @@ gulp.task('populate-menu',() => {
 		    handyUtils.debug('createRes in populate-menu HappyHour',createRes);
 				next();
 		  });
+		},
+		(next) => {
+			const HappyHour = JSON.parse(fs.readFileSync('./menuCategories/earlyBird.json', 'utf8'));
+			menus.create(HappyHour,(createErr,createRes)=> {
+		    handyUtils.debug('createErr in populate-menu HappyHour',createErr);
+		    handyUtils.debug('createRes in populate-menu HappyHour',createRes);
+				next();
+		  });
 		}
 
 	], (seriesErr, seriesRes) =>{

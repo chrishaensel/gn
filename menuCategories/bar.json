@@ -54,7 +54,7 @@
       "drinkName":"Chocolate Cherry Martini",
       "drinkPrice": 11,
       "drinkDescription":"Godiva Chocolate Liqueur, Stoli Vanilla, Cherry Heering"
-    },
+    }
   ],
   "sparkling":{
     "splits":[
@@ -327,9 +327,7 @@
     ],
     "Momokawa":[
       {
-        "drinkName":"
-Momokawa Sampler
-(Three of any momokawa drinks)",
+        "drinkName":"Momokawa Sampler (Three of any momokawa drinks)",
         "drinkDescription":false,
         "drinkPrice":12
       },
