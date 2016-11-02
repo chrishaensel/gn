@@ -1,2 +1,72 @@
-<h1>Menu categories will be present here.</h1>
-<a href="/menus/Appetizer" style="color:black">Appetizer</a>
+
+<h1>{{ menuCategory.categoryTitle }}</h1>
+{{#if menuCategory.categoryDescription}}
+  <p>
+    {{ menuCategory.categoryDescription }}
+  </p>
+{{/if}}
+{{!- Entre Section -}}
+{{#if menuCategory.entre}}
+  {{#each menuCategory.entre}}
+    <div class="">
+      <span>{{this.dishName}}</span>
+      {{#if this.dishDescription}}
+        <span>this.dishDescription</span>
+      {{/if}}
+      <span>${{this.dishPrice}}</span>
+    </div>
+  {{/each}}
+{{/if}}
+{{!- Entre Combinations Section -}}
+{{#if menuCategory.entreCombinations}}
+  {{#each menuCategory.entreCombinations}}
+    <div class="">
+      <span>{{this.dishName}}</span>
+      {{#if this.dishDescription}}
+        <span>this.dishDescription</span>
+      {{/if}}
+      <span>{{this.dishPrice}}</span>
+    </div>
+  {{/each}}
+{{/if}}
+{{!- Dishes Section -}}
+{{#if menuCategory.dishes}}
+  {{#each menuCategory.dishes}}
+    <div class="">
+      <span>{{this.dishName}}</span>
+      {{#if this.dishDescription}}
+        <span>this.dishDescription</span>
+      {{/if}}
+      <span>${{this.dishPrice}}</span>
+    </div>
+  {{/each}}
+{{/if}}
+<div class="menu-page-wrapper">
+	<div class="menu-nav orange-bg grey-10-color">
+		<div class="width-80-center menu-nav-content">
+			<a href="#">Appetizer</a>  &nbsp;|&nbsp;  <a href="#">Teppanyaki</a>  &nbsp;|&nbsp;  <a href="#">Halal Teppanyaki</a>  &nbsp;|&nbsp;  <a href="#">Sushi</a>  &nbsp;|&nbsp;  <a href="#">Bar</a>  &nbsp;|&nbsp;  <a href="#">Happy Hour</a>  &nbsp;|&nbsp;  <a href="#">Early Bird</a>
+		</div>
+	</div>
+	<div class="width-80-center">
+		<div class="section group">
+			<div class="col span_2_of_3">
+				<img class="img-drop-shadow" src="images/menu-item-03.png">
+			</div>
+			<div class="col span_1_of_3">
+				<img class="img-drop-shadow" src="images/menu-item.png">
+				<img class="img-drop-shadow" src="images/menu-item-02.png">
+			</div>
+		</div>
+		<div class="section group">
+			<div class="col span_1_of_3">
+				<img class="img-drop-shadow" src="images/menu-item.png">
+			</div>
+			<div class="col span_1_of_3">
+				<img class="img-drop-shadow" src="images/menu-item-02.png">
+			</div>
+			<div class="col span_1_of_3">
+				<img class="img-drop-shadow" src="images/menu-item-04.png">
+			</div>
+		</div>
+	</div>
+</div>
