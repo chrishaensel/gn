@@ -20,6 +20,7 @@ module.exports = (app) => {
        req.params.menuCategory === 'EarlyBird') {
         // Get the menu category from database
         menus.find({ categoryName: req.params.menuCategory }, (findErr,findRes)=> {
+          console.log("Line 23");
           handyUtils.debug('findErr menuCategory at /menus/:menuCategory', findErr);
           handyUtils.debug('findRes menuCategory at /menus/:menuCategory', findRes);
           dataForView.menuCategory = findRes[0];
@@ -28,9 +29,13 @@ module.exports = (app) => {
         });
 
       } else {
+        menus.find({ categoryName: req.params.menuCategory }, (error,res)=> {
+          console.log("db in else");
+        });
         //send to 404 page
         res.status(400);
         res.render('404', {title: '404: File Not Found', error:'this is not the page you are looking for'});
+
       }
   });
 

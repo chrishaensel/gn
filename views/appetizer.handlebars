@@ -1,18 +1,20 @@
-<h1>{{ menuCategory.categoryTitle }}</h1>
-{{#if menuCategory.categoryDescription}}
-  <p>
-    {{ menuCategory.categoryDescription }}
-  </p>
-{{/if}}
-{{!- Appetizers Section -}}
-{{#if menuCategory.appetizers}}
-  {{#each menuCategory.appetizers}}
-    <div class="">
-      <span>{{this.dishName}}</span>
-      {{#if this.dishDescription}}
-        <span>{{this.dishDescription}}</span>
-      {{/if}}
-      <span>${{this.dishPrice}}</span>
-    </div>
-  {{/each}}
-{{/if}}
+<div class="menu-page-wrapper-inside">
+  <h1>{{ menuCategory.categoryTitle }}</h1>
+  {{#if menuCategory.categoryDescription}}
+    <p>
+      {{ menuCategory.categoryDescription }}
+    </p>
+  {{/if}}
+  {{!- Appetizers Section -}}
+  {{#if menuCategory.appetizers}}
+    {{#each menuCategory.appetizers}}
+      <div class="">
+        <span>{{this.dishName}}</span>
+        {{#if this.dishDescription}}
+          <span>{{this.dishDescription}}</span>
+        {{/if}}
+        <span>${{this.dishPrice}}</span>
+      </div>
+    {{/each}}
+  {{/if}}
+</div>

@@ -897,6 +897,19 @@ input[type="checkbox"]:checked ~ .dropdown-menu {
     transform: scaleY(0); } }
 
 /*
+Stylesheet: Menu
+*/
+.menu-page-wrapper-inside {
+  text-align: center;
+  width: 850px;
+  margin: 0 auto;
+  color: #3a3a3a; }
+  .menu-page-wrapper-inside h1 {
+    font-family: "essonnes-headline",sans-serif;
+    text-transform: uppercase;
+    font-style: italic; }
+
+/*
 Stylesheet: Base Stylesheet
 */
 /*------------------------------------*  #GENERAL-STYLES
